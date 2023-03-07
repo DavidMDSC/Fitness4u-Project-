@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fitness4u__Project_
 {
-    public partial class Form1 : Form
+    public partial class MainScreenForm : Form
     {
-        public Form1()
+        public MainScreenForm()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace Fitness4u__Project_
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Journallicon_Click(object sender, EventArgs e)
         {
 
         }

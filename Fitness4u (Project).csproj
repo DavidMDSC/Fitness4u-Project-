@@ -95,5 +95,41 @@
   <ItemGroup>
     <None Include="Resources\2560x1440-black-solid-color-background.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60817.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60817 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60817 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-icon-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-icon-free-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-icon-free-vector %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-icon-free-vector%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-icon-free-vector%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-icon-free-vector%283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sample_User_Icon%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jumping jacks%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightbulb.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
