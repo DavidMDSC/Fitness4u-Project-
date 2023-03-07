@@ -86,5 +86,14 @@
   <ItemGroup>
     <None Include="Resources\rsz_1btmnavbarline.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black wallpaper1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2560x1440-black-solid-color-background.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

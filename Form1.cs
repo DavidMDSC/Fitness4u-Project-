@@ -26,5 +26,10 @@ namespace Fitness4u__Project_
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

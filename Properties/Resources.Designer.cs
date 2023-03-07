@@ -63,6 +63,36 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2560x1440_black_solid_color_background {
+            get {
+                object obj = ResourceManager.GetObject("2560x1440-black-solid-color-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap black_wallpaper {
+            get {
+                object obj = ResourceManager.GetObject("black wallpaper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap black_wallpaper1 {
+            get {
+                object obj = ResourceManager.GetObject("black wallpaper1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BtmNavBarLine {
             get {
                 object obj = ResourceManager.GetObject("BtmNavBarLine", resourceCulture);
