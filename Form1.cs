@@ -36,5 +36,10 @@ namespace Fitness4u__Project_
         {
 
         }
+
+        private void currentfitptsLblVar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
