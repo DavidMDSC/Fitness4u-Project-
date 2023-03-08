@@ -41,5 +41,25 @@ namespace Fitness4u__Project_
         {
 
         }
+
+        private void dayLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fitsuggLine4Picbox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void journalText2Lbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void yourprogresssatLbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

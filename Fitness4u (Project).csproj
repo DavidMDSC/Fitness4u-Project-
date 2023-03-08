@@ -76,6 +76,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\WorkSans-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -130,6 +131,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Lightbulb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Work sans font.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1172489062-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Running-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

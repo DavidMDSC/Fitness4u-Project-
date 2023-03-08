@@ -133,6 +133,16 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1172489062_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1172489062-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jumping_jacks_1_ {
             get {
                 object obj = ResourceManager.GetObject("Jumping jacks(1)", resourceCulture);
@@ -223,9 +233,29 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Running_icon {
+            get {
+                object obj = ResourceManager.GetObject("Running-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sample_User_Icon_1_ {
             get {
                 object obj = ResourceManager.GetObject("Sample_User_Icon(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Work_sans_font {
+            get {
+                object obj = ResourceManager.GetObject("Work sans font", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

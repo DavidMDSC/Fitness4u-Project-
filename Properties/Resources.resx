@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="open-book-icon-free-vector(3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\open-book-icon-free-vector(3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2560x1440-black-solid-color-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2560x1440-black-solid-color-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="60817" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\60817.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -129,9 +129,6 @@
   </data>
   <data name="Sample_User_Icon(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sample_User_Icon(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2560x1440-black-solid-color-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2560x1440-black-solid-color-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="60817 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\60817 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,11 +145,20 @@
   <data name="BtmNavBarLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtmNavBarLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="black wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="istockphoto-1172489062-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1172489062-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-book-icon-free-vector(3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-book-icon-free-vector(3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Work sans font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Work sans font.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="black wallpaper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\black wallpaper1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="open-book-icon-free-vector(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open-book-icon-free-vector(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,13 +166,16 @@
   <data name="open-book-icon-free-vector(3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open-book-icon-free-vector(3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lightbulb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lightbulb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rsz_1btmnavbarline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_1btmnavbarline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="60817 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\60817 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lightbulb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lightbulb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Running-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Running-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
