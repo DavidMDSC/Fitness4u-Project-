@@ -63,6 +63,36 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _136_1364342_clipboard_and_pencil {
+            get {
+                object obj = ResourceManager.GetObject("136-1364342_clipboard-and-pencil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1407802_200 {
+            get {
+                object obj = ResourceManager.GetObject("1407802-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1407802_200__1_ {
+            get {
+                object obj = ResourceManager.GetObject("1407802-200 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2560x1440_black_solid_color_background {
             get {
                 object obj = ResourceManager.GetObject("2560x1440-black-solid-color-background", resourceCulture);
@@ -96,6 +126,16 @@ namespace Fitness4u__Project_.Properties {
         internal static System.Drawing.Bitmap _60817__2_ {
             get {
                 object obj = ResourceManager.GetObject("60817 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _history_89998 {
+            get {
+                object obj = ResourceManager.GetObject("-history_89998", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +193,39 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Jumping_jacks_black {
+            get {
+                object obj = ResourceManager.GetObject("Jumping jacks black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jumping_jacks_black1 {
+            get {
+                object obj = ResourceManager.GetObject("Jumping jacks black1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lightbulb {
             get {
                 object obj = ResourceManager.GetObject("Lightbulb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lightbulb1 {
+            get {
+                object obj = ResourceManager.GetObject("Lightbulb1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

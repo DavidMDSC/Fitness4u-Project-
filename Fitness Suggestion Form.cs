@@ -16,5 +16,15 @@ namespace Fitness4u__Project_
         {
             InitializeComponent();
         }
+
+        private void Fitness_Suggestion_Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exercise4imgPicBoxVar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

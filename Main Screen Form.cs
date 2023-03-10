@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fitness4u__Project_
 {
-    public partial class MainScreenForm : Form
+    public partial class Main_Screen_Form : Form
     {
-        public MainScreenForm()
+        public Main_Screen_Form()
         {
             InitializeComponent();
         }
