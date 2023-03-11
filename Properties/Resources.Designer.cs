@@ -63,6 +63,16 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1024px_Icon_round_Question_mark_ {
+            get {
+                object obj = ResourceManager.GetObject("1024px-Icon-round-Question_mark.", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _136_1364342_clipboard_and_pencil {
             get {
                 object obj = ResourceManager.GetObject("136-1364342_clipboard-and-pencil", resourceCulture);
@@ -136,6 +146,16 @@ namespace Fitness4u__Project_.Properties {
         internal static System.Drawing.Bitmap _history_89998 {
             get {
                 object obj = ResourceManager.GetObject("-history_89998", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap betterblackboxoutline {
+            get {
+                object obj = ResourceManager.GetObject("betterblackboxoutline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

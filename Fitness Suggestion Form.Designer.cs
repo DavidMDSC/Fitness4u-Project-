@@ -55,6 +55,9 @@
             this.exercise4checkPicBoxVar = new System.Windows.Forms.PictureBox();
             this.exercise4videoPicBoxVar = new System.Windows.Forms.PictureBox();
             this.exercise5LblVar = new System.Windows.Forms.Label();
+            this.exercise5imgPicBoxVar = new System.Windows.Forms.PictureBox();
+            this.exercise5checkPicBoxVar = new System.Windows.Forms.PictureBox();
+            this.exercise5videoPicBoxVar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_fitsugIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_mainmenuIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_userIcon)).BeginInit();
@@ -75,6 +78,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.exercise4imgPicBoxVar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise4checkPicBoxVar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise4videoPicBoxVar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exercise5imgPicBoxVar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exercise5checkPicBoxVar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exercise5videoPicBoxVar)).BeginInit();
             this.SuspendLayout();
             // 
             // fitness4uLbl
@@ -163,7 +169,7 @@
             // 
             this.todayexercisesLbl.AutoSize = true;
             this.todayexercisesLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.todayexercisesLbl.Location = new System.Drawing.Point(21, 126);
+            this.todayexercisesLbl.Location = new System.Drawing.Point(21, 112);
             this.todayexercisesLbl.Name = "todayexercisesLbl";
             this.todayexercisesLbl.Size = new System.Drawing.Size(169, 24);
             this.todayexercisesLbl.TabIndex = 9;
@@ -173,7 +179,7 @@
             // 
             this.exercise1LblVar.AutoSize = true;
             this.exercise1LblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exercise1LblVar.Location = new System.Drawing.Point(26, 192);
+            this.exercise1LblVar.Location = new System.Drawing.Point(26, 178);
             this.exercise1LblVar.Name = "exercise1LblVar";
             this.exercise1LblVar.Size = new System.Drawing.Size(71, 18);
             this.exercise1LblVar.TabIndex = 10;
@@ -181,7 +187,7 @@
             // 
             // exercise1imgPicBoxVar
             // 
-            this.exercise1imgPicBoxVar.Location = new System.Drawing.Point(122, 177);
+            this.exercise1imgPicBoxVar.Location = new System.Drawing.Point(122, 163);
             this.exercise1imgPicBoxVar.Name = "exercise1imgPicBoxVar";
             this.exercise1imgPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise1imgPicBoxVar.TabIndex = 11;
@@ -189,7 +195,8 @@
             // 
             // exercise1checkPicBoxVar
             // 
-            this.exercise1checkPicBoxVar.Location = new System.Drawing.Point(211, 177);
+            this.exercise1checkPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources.betterblackboxoutline;
+            this.exercise1checkPicBoxVar.Location = new System.Drawing.Point(211, 163);
             this.exercise1checkPicBoxVar.Name = "exercise1checkPicBoxVar";
             this.exercise1checkPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise1checkPicBoxVar.TabIndex = 12;
@@ -197,7 +204,8 @@
             // 
             // exercise1videoPicBoxVar
             // 
-            this.exercise1videoPicBoxVar.Location = new System.Drawing.Point(299, 177);
+            this.exercise1videoPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources._1024px_Icon_round_Question_mark_;
+            this.exercise1videoPicBoxVar.Location = new System.Drawing.Point(299, 163);
             this.exercise1videoPicBoxVar.Name = "exercise1videoPicBoxVar";
             this.exercise1videoPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise1videoPicBoxVar.TabIndex = 13;
@@ -207,7 +215,7 @@
             // 
             this.exercise2LblVar.AutoSize = true;
             this.exercise2LblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.exercise2LblVar.Location = new System.Drawing.Point(26, 282);
+            this.exercise2LblVar.Location = new System.Drawing.Point(26, 268);
             this.exercise2LblVar.Name = "exercise2LblVar";
             this.exercise2LblVar.Size = new System.Drawing.Size(71, 18);
             this.exercise2LblVar.TabIndex = 14;
@@ -215,7 +223,7 @@
             // 
             // exercise2imgPicBoxVar
             // 
-            this.exercise2imgPicBoxVar.Location = new System.Drawing.Point(122, 267);
+            this.exercise2imgPicBoxVar.Location = new System.Drawing.Point(122, 253);
             this.exercise2imgPicBoxVar.Name = "exercise2imgPicBoxVar";
             this.exercise2imgPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise2imgPicBoxVar.TabIndex = 15;
@@ -223,7 +231,8 @@
             // 
             // exercise2checkPicBoxVar
             // 
-            this.exercise2checkPicBoxVar.Location = new System.Drawing.Point(211, 267);
+            this.exercise2checkPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources.betterblackboxoutline;
+            this.exercise2checkPicBoxVar.Location = new System.Drawing.Point(211, 253);
             this.exercise2checkPicBoxVar.Name = "exercise2checkPicBoxVar";
             this.exercise2checkPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise2checkPicBoxVar.TabIndex = 16;
@@ -231,7 +240,8 @@
             // 
             // exercise2videoPicBoxVar
             // 
-            this.exercise2videoPicBoxVar.Location = new System.Drawing.Point(299, 267);
+            this.exercise2videoPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources._1024px_Icon_round_Question_mark_;
+            this.exercise2videoPicBoxVar.Location = new System.Drawing.Point(299, 253);
             this.exercise2videoPicBoxVar.Name = "exercise2videoPicBoxVar";
             this.exercise2videoPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise2videoPicBoxVar.TabIndex = 17;
@@ -241,7 +251,7 @@
             // 
             this.exercise3LblVar.AutoSize = true;
             this.exercise3LblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.exercise3LblVar.Location = new System.Drawing.Point(26, 371);
+            this.exercise3LblVar.Location = new System.Drawing.Point(26, 358);
             this.exercise3LblVar.Name = "exercise3LblVar";
             this.exercise3LblVar.Size = new System.Drawing.Size(71, 18);
             this.exercise3LblVar.TabIndex = 18;
@@ -249,7 +259,7 @@
             // 
             // exercise3imgPicBoxVar
             // 
-            this.exercise3imgPicBoxVar.Location = new System.Drawing.Point(122, 357);
+            this.exercise3imgPicBoxVar.Location = new System.Drawing.Point(122, 343);
             this.exercise3imgPicBoxVar.Name = "exercise3imgPicBoxVar";
             this.exercise3imgPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise3imgPicBoxVar.TabIndex = 19;
@@ -257,7 +267,8 @@
             // 
             // exercise3checkPicBoxVar
             // 
-            this.exercise3checkPicBoxVar.Location = new System.Drawing.Point(211, 357);
+            this.exercise3checkPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources.betterblackboxoutline;
+            this.exercise3checkPicBoxVar.Location = new System.Drawing.Point(211, 343);
             this.exercise3checkPicBoxVar.Name = "exercise3checkPicBoxVar";
             this.exercise3checkPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise3checkPicBoxVar.TabIndex = 20;
@@ -265,7 +276,8 @@
             // 
             // exercise3videoPicBoxVar
             // 
-            this.exercise3videoPicBoxVar.Location = new System.Drawing.Point(299, 357);
+            this.exercise3videoPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources._1024px_Icon_round_Question_mark_;
+            this.exercise3videoPicBoxVar.Location = new System.Drawing.Point(299, 343);
             this.exercise3videoPicBoxVar.Name = "exercise3videoPicBoxVar";
             this.exercise3videoPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise3videoPicBoxVar.TabIndex = 21;
@@ -275,7 +287,7 @@
             // 
             this.exercise4LblVar.AutoSize = true;
             this.exercise4LblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.exercise4LblVar.Location = new System.Drawing.Point(26, 462);
+            this.exercise4LblVar.Location = new System.Drawing.Point(26, 448);
             this.exercise4LblVar.Name = "exercise4LblVar";
             this.exercise4LblVar.Size = new System.Drawing.Size(71, 18);
             this.exercise4LblVar.TabIndex = 22;
@@ -283,7 +295,7 @@
             // 
             // exercise4imgPicBoxVar
             // 
-            this.exercise4imgPicBoxVar.Location = new System.Drawing.Point(122, 447);
+            this.exercise4imgPicBoxVar.Location = new System.Drawing.Point(122, 433);
             this.exercise4imgPicBoxVar.Name = "exercise4imgPicBoxVar";
             this.exercise4imgPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise4imgPicBoxVar.TabIndex = 23;
@@ -292,7 +304,8 @@
             // 
             // exercise4checkPicBoxVar
             // 
-            this.exercise4checkPicBoxVar.Location = new System.Drawing.Point(211, 447);
+            this.exercise4checkPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources.betterblackboxoutline;
+            this.exercise4checkPicBoxVar.Location = new System.Drawing.Point(211, 433);
             this.exercise4checkPicBoxVar.Name = "exercise4checkPicBoxVar";
             this.exercise4checkPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise4checkPicBoxVar.TabIndex = 24;
@@ -300,7 +313,8 @@
             // 
             // exercise4videoPicBoxVar
             // 
-            this.exercise4videoPicBoxVar.Location = new System.Drawing.Point(299, 447);
+            this.exercise4videoPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources._1024px_Icon_round_Question_mark_;
+            this.exercise4videoPicBoxVar.Location = new System.Drawing.Point(299, 433);
             this.exercise4videoPicBoxVar.Name = "exercise4videoPicBoxVar";
             this.exercise4videoPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise4videoPicBoxVar.TabIndex = 25;
@@ -310,17 +324,46 @@
             // 
             this.exercise5LblVar.AutoSize = true;
             this.exercise5LblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.exercise5LblVar.Location = new System.Drawing.Point(26, 534);
+            this.exercise5LblVar.Location = new System.Drawing.Point(26, 538);
             this.exercise5LblVar.Name = "exercise5LblVar";
             this.exercise5LblVar.Size = new System.Drawing.Size(71, 18);
             this.exercise5LblVar.TabIndex = 26;
             this.exercise5LblVar.Text = "exercise5";
+            // 
+            // exercise5imgPicBoxVar
+            // 
+            this.exercise5imgPicBoxVar.Location = new System.Drawing.Point(122, 523);
+            this.exercise5imgPicBoxVar.Name = "exercise5imgPicBoxVar";
+            this.exercise5imgPicBoxVar.Size = new System.Drawing.Size(57, 50);
+            this.exercise5imgPicBoxVar.TabIndex = 27;
+            this.exercise5imgPicBoxVar.TabStop = false;
+            // 
+            // exercise5checkPicBoxVar
+            // 
+            this.exercise5checkPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources.betterblackboxoutline;
+            this.exercise5checkPicBoxVar.Location = new System.Drawing.Point(211, 523);
+            this.exercise5checkPicBoxVar.Name = "exercise5checkPicBoxVar";
+            this.exercise5checkPicBoxVar.Size = new System.Drawing.Size(57, 50);
+            this.exercise5checkPicBoxVar.TabIndex = 28;
+            this.exercise5checkPicBoxVar.TabStop = false;
+            // 
+            // exercise5videoPicBoxVar
+            // 
+            this.exercise5videoPicBoxVar.Image = global::Fitness4u__Project_.Properties.Resources._1024px_Icon_round_Question_mark_;
+            this.exercise5videoPicBoxVar.Location = new System.Drawing.Point(299, 523);
+            this.exercise5videoPicBoxVar.Name = "exercise5videoPicBoxVar";
+            this.exercise5videoPicBoxVar.Size = new System.Drawing.Size(57, 50);
+            this.exercise5videoPicBoxVar.TabIndex = 29;
+            this.exercise5videoPicBoxVar.TabStop = false;
             // 
             // Fitness_Suggestion_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 681);
+            this.Controls.Add(this.exercise5videoPicBoxVar);
+            this.Controls.Add(this.exercise5checkPicBoxVar);
+            this.Controls.Add(this.exercise5imgPicBoxVar);
             this.Controls.Add(this.exercise5LblVar);
             this.Controls.Add(this.exercise4videoPicBoxVar);
             this.Controls.Add(this.exercise4checkPicBoxVar);
@@ -371,6 +414,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.exercise4imgPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise4checkPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise4videoPicBoxVar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exercise5imgPicBoxVar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exercise5checkPicBoxVar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exercise5videoPicBoxVar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,5 +451,8 @@
         private System.Windows.Forms.PictureBox exercise4checkPicBoxVar;
         private System.Windows.Forms.PictureBox exercise4videoPicBoxVar;
         private System.Windows.Forms.Label exercise5LblVar;
+        private System.Windows.Forms.PictureBox exercise5imgPicBoxVar;
+        private System.Windows.Forms.PictureBox exercise5checkPicBoxVar;
+        private System.Windows.Forms.PictureBox exercise5videoPicBoxVar;
     }
 }

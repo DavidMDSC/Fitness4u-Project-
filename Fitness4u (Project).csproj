@@ -171,5 +171,11 @@
   <ItemGroup>
     <None Include="Resources\Jumping jacks black1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1024px-Icon-round-Question_mark..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\betterblackboxoutline.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
