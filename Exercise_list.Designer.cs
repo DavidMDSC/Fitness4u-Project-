@@ -28,63 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cardiogroupLbl = new System.Windows.Forms.Label();
+            this.musclegroupLbl = new System.Windows.Forms.Label();
+            this.favouritesLbl = new System.Windows.Forms.Label();
+            this.favouritesIconPicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesDropline3PicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesDropline2PicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesDropline1PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupIconPicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupDropline3PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupDropline2PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupDropline1PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupIconPicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupDropline3PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupDropline2PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupDropline1PicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesLine2PicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesLine3PicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesLine4PicBox = new System.Windows.Forms.PictureBox();
+            this.favouritesLine1PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupLine2PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupLine3PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupLine4PicBox = new System.Windows.Forms.PictureBox();
+            this.musclegroupLine1PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupLine2PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupLine3PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupLine4PicBox = new System.Windows.Forms.PictureBox();
+            this.cardiogroupLine1PicBox = new System.Windows.Forms.PictureBox();
             this.ExerciseList_exerciselistIcon = new System.Windows.Forms.PictureBox();
             this.ExcerciseList_userIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_journalIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_mainmenuIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_fitsugIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_btmnavbarlinePicBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesIconPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline3PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline2PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline1PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupIconPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupDropline3PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupDropline2PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupDropline1PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupIconPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupDropline3PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupDropline2PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupDropline1PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine2PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine3PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine4PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine1PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine2PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine3PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine4PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine1PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine2PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine3PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine4PicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine1PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_exerciselistIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExcerciseList_userIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_journalIcon)).BeginInit();
@@ -93,257 +93,257 @@
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_btmnavbarlinePicBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // cardiogroupLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(135, 59);
-            this.label1.MaximumSize = new System.Drawing.Size(150, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 74);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Cardio group";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.cardiogroupLbl.AutoSize = true;
+            this.cardiogroupLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cardiogroupLbl.Location = new System.Drawing.Point(135, 59);
+            this.cardiogroupLbl.MaximumSize = new System.Drawing.Size(150, 0);
+            this.cardiogroupLbl.Name = "cardiogroupLbl";
+            this.cardiogroupLbl.Size = new System.Drawing.Size(112, 74);
+            this.cardiogroupLbl.TabIndex = 21;
+            this.cardiogroupLbl.Text = "Cardio group";
+            this.cardiogroupLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label2
+            // musclegroupLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(135, 250);
-            this.label2.MaximumSize = new System.Drawing.Size(150, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 74);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "Muscle group";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.musclegroupLbl.AutoSize = true;
+            this.musclegroupLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.musclegroupLbl.Location = new System.Drawing.Point(135, 250);
+            this.musclegroupLbl.MaximumSize = new System.Drawing.Size(150, 0);
+            this.musclegroupLbl.Name = "musclegroupLbl";
+            this.musclegroupLbl.Size = new System.Drawing.Size(117, 74);
+            this.musclegroupLbl.TabIndex = 26;
+            this.musclegroupLbl.Text = "Muscle group";
+            this.musclegroupLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label3
+            // favouritesLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(119, 466);
-            this.label3.MaximumSize = new System.Drawing.Size(200, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 33);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Favourites";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.favouritesLbl.AutoSize = true;
+            this.favouritesLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.favouritesLbl.Location = new System.Drawing.Point(119, 466);
+            this.favouritesLbl.MaximumSize = new System.Drawing.Size(200, 0);
+            this.favouritesLbl.Name = "favouritesLbl";
+            this.favouritesLbl.Size = new System.Drawing.Size(152, 33);
+            this.favouritesLbl.TabIndex = 31;
+            this.favouritesLbl.Text = "Favourites";
+            this.favouritesLbl.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // pictureBox24
+            // favouritesIconPicBox
             // 
-            this.pictureBox24.Image = global::Fitness4u__Project_.Properties.Resources._494568;
-            this.pictureBox24.Location = new System.Drawing.Point(280, 453);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(61, 61);
-            this.pictureBox24.TabIndex = 32;
-            this.pictureBox24.TabStop = false;
+            this.favouritesIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources._494568;
+            this.favouritesIconPicBox.Location = new System.Drawing.Point(280, 453);
+            this.favouritesIconPicBox.Name = "favouritesIconPicBox";
+            this.favouritesIconPicBox.Size = new System.Drawing.Size(61, 61);
+            this.favouritesIconPicBox.TabIndex = 32;
+            this.favouritesIconPicBox.TabStop = false;
             // 
-            // pictureBox21
+            // favouritesDropline3PicBox
             // 
-            this.pictureBox21.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox21.Location = new System.Drawing.Point(49, 517);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox21.TabIndex = 30;
-            this.pictureBox21.TabStop = false;
+            this.favouritesDropline3PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesDropline3PicBox.Location = new System.Drawing.Point(49, 517);
+            this.favouritesDropline3PicBox.Name = "favouritesDropline3PicBox";
+            this.favouritesDropline3PicBox.Size = new System.Drawing.Size(60, 2);
+            this.favouritesDropline3PicBox.TabIndex = 30;
+            this.favouritesDropline3PicBox.TabStop = false;
             // 
-            // pictureBox22
+            // favouritesDropline2PicBox
             // 
-            this.pictureBox22.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox22.Location = new System.Drawing.Point(49, 482);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox22.TabIndex = 29;
-            this.pictureBox22.TabStop = false;
+            this.favouritesDropline2PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesDropline2PicBox.Location = new System.Drawing.Point(49, 482);
+            this.favouritesDropline2PicBox.Name = "favouritesDropline2PicBox";
+            this.favouritesDropline2PicBox.Size = new System.Drawing.Size(60, 2);
+            this.favouritesDropline2PicBox.TabIndex = 29;
+            this.favouritesDropline2PicBox.TabStop = false;
             // 
-            // pictureBox23
+            // favouritesDropline1PicBox
             // 
-            this.pictureBox23.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox23.Location = new System.Drawing.Point(49, 445);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox23.TabIndex = 28;
-            this.pictureBox23.TabStop = false;
+            this.favouritesDropline1PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesDropline1PicBox.Location = new System.Drawing.Point(49, 445);
+            this.favouritesDropline1PicBox.Name = "favouritesDropline1PicBox";
+            this.favouritesDropline1PicBox.Size = new System.Drawing.Size(60, 2);
+            this.favouritesDropline1PicBox.TabIndex = 28;
+            this.favouritesDropline1PicBox.TabStop = false;
             // 
-            // pictureBox20
+            // musclegroupIconPicBox
             // 
-            this.pictureBox20.Image = global::Fitness4u__Project_.Properties.Resources._730325_200;
-            this.pictureBox20.Location = new System.Drawing.Point(274, 255);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(71, 66);
-            this.pictureBox20.TabIndex = 27;
-            this.pictureBox20.TabStop = false;
+            this.musclegroupIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources._730325_200;
+            this.musclegroupIconPicBox.Location = new System.Drawing.Point(274, 255);
+            this.musclegroupIconPicBox.Name = "musclegroupIconPicBox";
+            this.musclegroupIconPicBox.Size = new System.Drawing.Size(71, 66);
+            this.musclegroupIconPicBox.TabIndex = 27;
+            this.musclegroupIconPicBox.TabStop = false;
             // 
-            // pictureBox17
+            // musclegroupDropline3PicBox
             // 
-            this.pictureBox17.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox17.Location = new System.Drawing.Point(49, 322);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox17.TabIndex = 25;
-            this.pictureBox17.TabStop = false;
+            this.musclegroupDropline3PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupDropline3PicBox.Location = new System.Drawing.Point(49, 322);
+            this.musclegroupDropline3PicBox.Name = "musclegroupDropline3PicBox";
+            this.musclegroupDropline3PicBox.Size = new System.Drawing.Size(60, 2);
+            this.musclegroupDropline3PicBox.TabIndex = 25;
+            this.musclegroupDropline3PicBox.TabStop = false;
             // 
-            // pictureBox18
+            // musclegroupDropline2PicBox
             // 
-            this.pictureBox18.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox18.Location = new System.Drawing.Point(49, 287);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox18.TabIndex = 24;
-            this.pictureBox18.TabStop = false;
+            this.musclegroupDropline2PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupDropline2PicBox.Location = new System.Drawing.Point(49, 287);
+            this.musclegroupDropline2PicBox.Name = "musclegroupDropline2PicBox";
+            this.musclegroupDropline2PicBox.Size = new System.Drawing.Size(60, 2);
+            this.musclegroupDropline2PicBox.TabIndex = 24;
+            this.musclegroupDropline2PicBox.TabStop = false;
             // 
-            // pictureBox19
+            // musclegroupDropline1PicBox
             // 
-            this.pictureBox19.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox19.Location = new System.Drawing.Point(49, 250);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox19.TabIndex = 23;
-            this.pictureBox19.TabStop = false;
+            this.musclegroupDropline1PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupDropline1PicBox.Location = new System.Drawing.Point(49, 250);
+            this.musclegroupDropline1PicBox.Name = "musclegroupDropline1PicBox";
+            this.musclegroupDropline1PicBox.Size = new System.Drawing.Size(60, 2);
+            this.musclegroupDropline1PicBox.TabIndex = 23;
+            this.musclegroupDropline1PicBox.TabStop = false;
             // 
-            // pictureBox16
+            // cardiogroupIconPicBox
             // 
-            this.pictureBox16.Image = global::Fitness4u__Project_.Properties.Resources.Running_icon;
-            this.pictureBox16.Location = new System.Drawing.Point(274, 63);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(69, 66);
-            this.pictureBox16.TabIndex = 22;
-            this.pictureBox16.TabStop = false;
+            this.cardiogroupIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources.Running_icon;
+            this.cardiogroupIconPicBox.Location = new System.Drawing.Point(274, 63);
+            this.cardiogroupIconPicBox.Name = "cardiogroupIconPicBox";
+            this.cardiogroupIconPicBox.Size = new System.Drawing.Size(69, 66);
+            this.cardiogroupIconPicBox.TabIndex = 22;
+            this.cardiogroupIconPicBox.TabStop = false;
             // 
-            // pictureBox15
+            // cardiogroupDropline3PicBox
             // 
-            this.pictureBox15.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox15.Location = new System.Drawing.Point(49, 131);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox15.TabIndex = 20;
-            this.pictureBox15.TabStop = false;
+            this.cardiogroupDropline3PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupDropline3PicBox.Location = new System.Drawing.Point(49, 131);
+            this.cardiogroupDropline3PicBox.Name = "cardiogroupDropline3PicBox";
+            this.cardiogroupDropline3PicBox.Size = new System.Drawing.Size(60, 2);
+            this.cardiogroupDropline3PicBox.TabIndex = 20;
+            this.cardiogroupDropline3PicBox.TabStop = false;
             // 
-            // pictureBox14
+            // cardiogroupDropline2PicBox
             // 
-            this.pictureBox14.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox14.Location = new System.Drawing.Point(49, 96);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox14.TabIndex = 19;
-            this.pictureBox14.TabStop = false;
+            this.cardiogroupDropline2PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupDropline2PicBox.Location = new System.Drawing.Point(49, 96);
+            this.cardiogroupDropline2PicBox.Name = "cardiogroupDropline2PicBox";
+            this.cardiogroupDropline2PicBox.Size = new System.Drawing.Size(60, 2);
+            this.cardiogroupDropline2PicBox.TabIndex = 19;
+            this.cardiogroupDropline2PicBox.TabStop = false;
             // 
-            // pictureBox13
+            // cardiogroupDropline1PicBox
             // 
-            this.pictureBox13.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox13.Location = new System.Drawing.Point(49, 59);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(60, 2);
-            this.pictureBox13.TabIndex = 18;
-            this.pictureBox13.TabStop = false;
+            this.cardiogroupDropline1PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupDropline1PicBox.Location = new System.Drawing.Point(49, 59);
+            this.cardiogroupDropline1PicBox.Name = "cardiogroupDropline1PicBox";
+            this.cardiogroupDropline1PicBox.Size = new System.Drawing.Size(60, 2);
+            this.cardiogroupDropline1PicBox.TabIndex = 18;
+            this.cardiogroupDropline1PicBox.TabStop = false;
             // 
-            // pictureBox12
+            // favouritesLine2PicBox
             // 
-            this.pictureBox12.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox12.Location = new System.Drawing.Point(363, 404);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(3, 150);
-            this.pictureBox12.TabIndex = 17;
-            this.pictureBox12.TabStop = false;
+            this.favouritesLine2PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesLine2PicBox.Location = new System.Drawing.Point(363, 404);
+            this.favouritesLine2PicBox.Name = "favouritesLine2PicBox";
+            this.favouritesLine2PicBox.Size = new System.Drawing.Size(3, 150);
+            this.favouritesLine2PicBox.TabIndex = 17;
+            this.favouritesLine2PicBox.TabStop = false;
             // 
-            // pictureBox11
+            // favouritesLine3PicBox
             // 
-            this.pictureBox11.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox11.Location = new System.Drawing.Point(16, 551);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(350, 3);
-            this.pictureBox11.TabIndex = 16;
-            this.pictureBox11.TabStop = false;
+            this.favouritesLine3PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesLine3PicBox.Location = new System.Drawing.Point(16, 551);
+            this.favouritesLine3PicBox.Name = "favouritesLine3PicBox";
+            this.favouritesLine3PicBox.Size = new System.Drawing.Size(350, 3);
+            this.favouritesLine3PicBox.TabIndex = 16;
+            this.favouritesLine3PicBox.TabStop = false;
             // 
-            // pictureBox10
+            // favouritesLine4PicBox
             // 
-            this.pictureBox10.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox10.Location = new System.Drawing.Point(16, 404);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(3, 150);
-            this.pictureBox10.TabIndex = 15;
-            this.pictureBox10.TabStop = false;
+            this.favouritesLine4PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesLine4PicBox.Location = new System.Drawing.Point(16, 404);
+            this.favouritesLine4PicBox.Name = "favouritesLine4PicBox";
+            this.favouritesLine4PicBox.Size = new System.Drawing.Size(3, 150);
+            this.favouritesLine4PicBox.TabIndex = 15;
+            this.favouritesLine4PicBox.TabStop = false;
             // 
-            // pictureBox9
+            // favouritesLine1PicBox
             // 
-            this.pictureBox9.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox9.Location = new System.Drawing.Point(16, 404);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(350, 3);
-            this.pictureBox9.TabIndex = 14;
-            this.pictureBox9.TabStop = false;
+            this.favouritesLine1PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.favouritesLine1PicBox.Location = new System.Drawing.Point(16, 404);
+            this.favouritesLine1PicBox.Name = "favouritesLine1PicBox";
+            this.favouritesLine1PicBox.Size = new System.Drawing.Size(350, 3);
+            this.favouritesLine1PicBox.TabIndex = 14;
+            this.favouritesLine1PicBox.TabStop = false;
             // 
-            // pictureBox8
+            // musclegroupLine2PicBox
             // 
-            this.pictureBox8.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox8.Location = new System.Drawing.Point(363, 211);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(3, 150);
-            this.pictureBox8.TabIndex = 13;
-            this.pictureBox8.TabStop = false;
+            this.musclegroupLine2PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupLine2PicBox.Location = new System.Drawing.Point(363, 211);
+            this.musclegroupLine2PicBox.Name = "musclegroupLine2PicBox";
+            this.musclegroupLine2PicBox.Size = new System.Drawing.Size(3, 150);
+            this.musclegroupLine2PicBox.TabIndex = 13;
+            this.musclegroupLine2PicBox.TabStop = false;
             // 
-            // pictureBox7
+            // musclegroupLine3PicBox
             // 
-            this.pictureBox7.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox7.Location = new System.Drawing.Point(16, 358);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(350, 3);
-            this.pictureBox7.TabIndex = 12;
-            this.pictureBox7.TabStop = false;
+            this.musclegroupLine3PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupLine3PicBox.Location = new System.Drawing.Point(16, 358);
+            this.musclegroupLine3PicBox.Name = "musclegroupLine3PicBox";
+            this.musclegroupLine3PicBox.Size = new System.Drawing.Size(350, 3);
+            this.musclegroupLine3PicBox.TabIndex = 12;
+            this.musclegroupLine3PicBox.TabStop = false;
             // 
-            // pictureBox6
+            // musclegroupLine4PicBox
             // 
-            this.pictureBox6.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox6.Location = new System.Drawing.Point(16, 211);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(3, 150);
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
+            this.musclegroupLine4PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupLine4PicBox.Location = new System.Drawing.Point(16, 211);
+            this.musclegroupLine4PicBox.Name = "musclegroupLine4PicBox";
+            this.musclegroupLine4PicBox.Size = new System.Drawing.Size(3, 150);
+            this.musclegroupLine4PicBox.TabIndex = 11;
+            this.musclegroupLine4PicBox.TabStop = false;
             // 
-            // pictureBox5
+            // musclegroupLine1PicBox
             // 
-            this.pictureBox5.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox5.Location = new System.Drawing.Point(16, 211);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(350, 3);
-            this.pictureBox5.TabIndex = 10;
-            this.pictureBox5.TabStop = false;
+            this.musclegroupLine1PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.musclegroupLine1PicBox.Location = new System.Drawing.Point(16, 211);
+            this.musclegroupLine1PicBox.Name = "musclegroupLine1PicBox";
+            this.musclegroupLine1PicBox.Size = new System.Drawing.Size(350, 3);
+            this.musclegroupLine1PicBox.TabIndex = 10;
+            this.musclegroupLine1PicBox.TabStop = false;
             // 
-            // pictureBox4
+            // cardiogroupLine2PicBox
             // 
-            this.pictureBox4.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox4.Location = new System.Drawing.Point(363, 24);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(3, 150);
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
+            this.cardiogroupLine2PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupLine2PicBox.Location = new System.Drawing.Point(363, 24);
+            this.cardiogroupLine2PicBox.Name = "cardiogroupLine2PicBox";
+            this.cardiogroupLine2PicBox.Size = new System.Drawing.Size(3, 150);
+            this.cardiogroupLine2PicBox.TabIndex = 9;
+            this.cardiogroupLine2PicBox.TabStop = false;
             // 
-            // pictureBox3
+            // cardiogroupLine3PicBox
             // 
-            this.pictureBox3.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 171);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(350, 3);
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
+            this.cardiogroupLine3PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupLine3PicBox.Location = new System.Drawing.Point(16, 171);
+            this.cardiogroupLine3PicBox.Name = "cardiogroupLine3PicBox";
+            this.cardiogroupLine3PicBox.Size = new System.Drawing.Size(350, 3);
+            this.cardiogroupLine3PicBox.TabIndex = 8;
+            this.cardiogroupLine3PicBox.TabStop = false;
             // 
-            // pictureBox2
+            // cardiogroupLine4PicBox
             // 
-            this.pictureBox2.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 24);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(3, 150);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
+            this.cardiogroupLine4PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupLine4PicBox.Location = new System.Drawing.Point(16, 24);
+            this.cardiogroupLine4PicBox.Name = "cardiogroupLine4PicBox";
+            this.cardiogroupLine4PicBox.Size = new System.Drawing.Size(3, 150);
+            this.cardiogroupLine4PicBox.TabIndex = 7;
+            this.cardiogroupLine4PicBox.TabStop = false;
             // 
-            // pictureBox1
+            // cardiogroupLine1PicBox
             // 
-            this.pictureBox1.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(350, 3);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.cardiogroupLine1PicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.cardiogroupLine1PicBox.Location = new System.Drawing.Point(16, 24);
+            this.cardiogroupLine1PicBox.Name = "cardiogroupLine1PicBox";
+            this.cardiogroupLine1PicBox.Size = new System.Drawing.Size(350, 3);
+            this.cardiogroupLine1PicBox.TabIndex = 6;
+            this.cardiogroupLine1PicBox.TabStop = false;
             // 
             // ExerciseList_exerciselistIcon
             // 
@@ -405,33 +405,33 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 681);
-            this.Controls.Add(this.pictureBox24);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.favouritesIconPicBox);
+            this.Controls.Add(this.favouritesLbl);
+            this.Controls.Add(this.favouritesDropline3PicBox);
+            this.Controls.Add(this.favouritesDropline2PicBox);
+            this.Controls.Add(this.favouritesDropline1PicBox);
+            this.Controls.Add(this.musclegroupIconPicBox);
+            this.Controls.Add(this.musclegroupLbl);
+            this.Controls.Add(this.musclegroupDropline3PicBox);
+            this.Controls.Add(this.musclegroupDropline2PicBox);
+            this.Controls.Add(this.musclegroupDropline1PicBox);
+            this.Controls.Add(this.cardiogroupIconPicBox);
+            this.Controls.Add(this.cardiogroupLbl);
+            this.Controls.Add(this.cardiogroupDropline3PicBox);
+            this.Controls.Add(this.cardiogroupDropline2PicBox);
+            this.Controls.Add(this.cardiogroupDropline1PicBox);
+            this.Controls.Add(this.favouritesLine2PicBox);
+            this.Controls.Add(this.favouritesLine3PicBox);
+            this.Controls.Add(this.favouritesLine4PicBox);
+            this.Controls.Add(this.favouritesLine1PicBox);
+            this.Controls.Add(this.musclegroupLine2PicBox);
+            this.Controls.Add(this.musclegroupLine3PicBox);
+            this.Controls.Add(this.musclegroupLine4PicBox);
+            this.Controls.Add(this.musclegroupLine1PicBox);
+            this.Controls.Add(this.cardiogroupLine2PicBox);
+            this.Controls.Add(this.cardiogroupLine3PicBox);
+            this.Controls.Add(this.cardiogroupLine4PicBox);
+            this.Controls.Add(this.cardiogroupLine1PicBox);
             this.Controls.Add(this.ExerciseList_exerciselistIcon);
             this.Controls.Add(this.ExcerciseList_userIcon);
             this.Controls.Add(this.ExerciseList_journalIcon);
@@ -441,30 +441,30 @@
             this.Name = "Exercise_list";
             this.Text = "Exercise_list";
             this.Load += new System.EventHandler(this.Exercise_list_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesIconPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline3PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline2PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline1PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupIconPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupDropline3PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupDropline2PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupDropline1PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupIconPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupDropline3PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupDropline2PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupDropline1PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine2PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine3PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine4PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favouritesLine1PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine2PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine3PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine4PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.musclegroupLine1PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine2PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine3PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine4PicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine1PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_exerciselistIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExcerciseList_userIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_journalIcon)).EndInit();
@@ -484,32 +484,32 @@
         private System.Windows.Forms.PictureBox ExerciseList_journalIcon;
         private System.Windows.Forms.PictureBox ExcerciseList_userIcon;
         private System.Windows.Forms.PictureBox ExerciseList_exerciselistIcon;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox cardiogroupLine1PicBox;
+        private System.Windows.Forms.PictureBox cardiogroupLine4PicBox;
+        private System.Windows.Forms.PictureBox cardiogroupLine3PicBox;
+        private System.Windows.Forms.PictureBox cardiogroupLine2PicBox;
+        private System.Windows.Forms.PictureBox musclegroupLine1PicBox;
+        private System.Windows.Forms.PictureBox musclegroupLine4PicBox;
+        private System.Windows.Forms.PictureBox musclegroupLine3PicBox;
+        private System.Windows.Forms.PictureBox musclegroupLine2PicBox;
+        private System.Windows.Forms.PictureBox favouritesLine1PicBox;
+        private System.Windows.Forms.PictureBox favouritesLine4PicBox;
+        private System.Windows.Forms.PictureBox favouritesLine3PicBox;
+        private System.Windows.Forms.PictureBox favouritesLine2PicBox;
+        private System.Windows.Forms.PictureBox cardiogroupDropline1PicBox;
+        private System.Windows.Forms.PictureBox cardiogroupDropline2PicBox;
+        private System.Windows.Forms.PictureBox cardiogroupDropline3PicBox;
+        private System.Windows.Forms.Label cardiogroupLbl;
+        private System.Windows.Forms.PictureBox cardiogroupIconPicBox;
+        private System.Windows.Forms.PictureBox musclegroupDropline3PicBox;
+        private System.Windows.Forms.PictureBox musclegroupDropline2PicBox;
+        private System.Windows.Forms.PictureBox musclegroupDropline1PicBox;
+        private System.Windows.Forms.Label musclegroupLbl;
+        private System.Windows.Forms.PictureBox musclegroupIconPicBox;
+        private System.Windows.Forms.PictureBox favouritesDropline3PicBox;
+        private System.Windows.Forms.PictureBox favouritesDropline2PicBox;
+        private System.Windows.Forms.PictureBox favouritesDropline1PicBox;
+        private System.Windows.Forms.Label favouritesLbl;
+        private System.Windows.Forms.PictureBox favouritesIconPicBox;
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="Fitness Suggestion Form.Designer.cs">
       <DependentUpon>Fitness Suggestion Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fitness_journal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fitness_journal.Designer.cs">
+      <DependentUpon>Fitness_journal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main Screen Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Fitness Suggestion Form.resx">
       <DependentUpon>Fitness Suggestion Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fitness_journal.resx">
+      <DependentUpon>Fitness_journal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main Screen Form.resx">
       <DependentUpon>Main Screen Form.cs</DependentUpon>
@@ -194,6 +203,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\494568.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\journal_black60x60.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

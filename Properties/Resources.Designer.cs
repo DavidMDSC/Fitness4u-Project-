@@ -223,6 +223,16 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap journal_black60x60 {
+            get {
+                object obj = ResourceManager.GetObject("journal_black60x60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jumping_jacks_1_ {
             get {
                 object obj = ResourceManager.GetObject("Jumping jacks(1)", resourceCulture);
