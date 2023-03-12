@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercise_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercise_list.Designer.cs">
+      <DependentUpon>Exercise_list.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fitness Suggestion Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Exercise_list.resx">
+      <DependentUpon>Exercise_list.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fitness Suggestion Form.resx">
       <DependentUpon>Fitness Suggestion Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +185,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\betterblackboxoutline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightbulb_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\730325-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\494568.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
