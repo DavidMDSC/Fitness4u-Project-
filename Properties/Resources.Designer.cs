@@ -353,6 +353,16 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap plus_icon {
+            get {
+                object obj = ResourceManager.GetObject("plus_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rsz_1btmnavbarline {
             get {
                 object obj = ResourceManager.GetObject("rsz_1btmnavbarline", resourceCulture);

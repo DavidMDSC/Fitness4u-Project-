@@ -54,9 +54,9 @@ namespace Fitness4u__Project_
             this.yourprogresssunLbl = new System.Windows.Forms.Label();
             this.yourprogressgraphXPicbox = new System.Windows.Forms.PictureBox();
             this.yourprogressgraphYPicbox = new System.Windows.Forms.PictureBox();
-            this.yourprogressIconPicbox = new System.Windows.Forms.PictureBox();
-            this.journalIconPicbox = new System.Windows.Forms.PictureBox();
-            this.fitsuggIconPicbox = new System.Windows.Forms.PictureBox();
+            this.yourprogressIconPicBox = new System.Windows.Forms.PictureBox();
+            this.journalIconPicBox = new System.Windows.Forms.PictureBox();
+            this.fitsuggIconPicBox = new System.Windows.Forms.PictureBox();
             this.yourprogress3Picbox = new System.Windows.Forms.PictureBox();
             this.yourprogress2Picbox = new System.Windows.Forms.PictureBox();
             this.yourprogress1Picbox = new System.Windows.Forms.PictureBox();
@@ -74,12 +74,12 @@ namespace Fitness4u__Project_
             this.MainScreenForm_userIcon = new System.Windows.Forms.PictureBox();
             this.MainScreenForm_journalIcon = new System.Windows.Forms.PictureBox();
             this.MainScreenForm_mainmenuIcon = new System.Windows.Forms.PictureBox();
-            this.MainScreenForm_btmnavbarlinePicBox = new System.Windows.Forms.PictureBox();
+            this.MainScreenForm_btmnavbarlinePicbox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressgraphXPicbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressgraphYPicbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yourprogressIconPicbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.journalIconPicbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fitsuggIconPicbox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yourprogressIconPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.journalIconPicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fitsuggIconPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogress3Picbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogress2Picbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogress1Picbox)).BeginInit();
@@ -97,7 +97,7 @@ namespace Fitness4u__Project_
             ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_userIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_journalIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_mainmenuIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_btmnavbarlinePicBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_btmnavbarlinePicbox)).BeginInit();
             this.SuspendLayout();
             // 
             // dayLbl
@@ -356,32 +356,32 @@ namespace Fitness4u__Project_
             this.yourprogressgraphYPicbox.TabIndex = 37;
             this.yourprogressgraphYPicbox.TabStop = false;
             // 
-            // yourprogressIconPicbox
+            // yourprogressIconPicBox
             // 
-            this.yourprogressIconPicbox.Image = global::Fitness4u__Project_.Properties.Resources.Running_icon;
-            this.yourprogressIconPicbox.Location = new System.Drawing.Point(281, 430);
-            this.yourprogressIconPicbox.Name = "yourprogressIconPicbox";
-            this.yourprogressIconPicbox.Size = new System.Drawing.Size(69, 66);
-            this.yourprogressIconPicbox.TabIndex = 35;
-            this.yourprogressIconPicbox.TabStop = false;
+            this.yourprogressIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources.Running_icon;
+            this.yourprogressIconPicBox.Location = new System.Drawing.Point(281, 430);
+            this.yourprogressIconPicBox.Name = "yourprogressIconPicBox";
+            this.yourprogressIconPicBox.Size = new System.Drawing.Size(69, 66);
+            this.yourprogressIconPicBox.TabIndex = 35;
+            this.yourprogressIconPicBox.TabStop = false;
             // 
-            // journalIconPicbox
+            // journalIconPicBox
             // 
-            this.journalIconPicbox.Image = global::Fitness4u__Project_.Properties.Resources.open_book_icon_free_vector_3_;
-            this.journalIconPicbox.Location = new System.Drawing.Point(194, 319);
-            this.journalIconPicbox.Name = "journalIconPicbox";
-            this.journalIconPicbox.Size = new System.Drawing.Size(67, 72);
-            this.journalIconPicbox.TabIndex = 34;
-            this.journalIconPicbox.TabStop = false;
+            this.journalIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources.open_book_icon_free_vector_3_;
+            this.journalIconPicBox.Location = new System.Drawing.Point(194, 319);
+            this.journalIconPicBox.Name = "journalIconPicBox";
+            this.journalIconPicBox.Size = new System.Drawing.Size(67, 72);
+            this.journalIconPicBox.TabIndex = 34;
+            this.journalIconPicBox.TabStop = false;
             // 
-            // fitsuggIconPicbox
+            // fitsuggIconPicBox
             // 
-            this.fitsuggIconPicbox.Image = global::Fitness4u__Project_.Properties.Resources.Jumping_jacks_1_;
-            this.fitsuggIconPicbox.Location = new System.Drawing.Point(103, 317);
-            this.fitsuggIconPicbox.Name = "fitsuggIconPicbox";
-            this.fitsuggIconPicbox.Size = new System.Drawing.Size(59, 72);
-            this.fitsuggIconPicbox.TabIndex = 31;
-            this.fitsuggIconPicbox.TabStop = false;
+            this.fitsuggIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources.Jumping_jacks_1_;
+            this.fitsuggIconPicBox.Location = new System.Drawing.Point(103, 317);
+            this.fitsuggIconPicBox.Name = "fitsuggIconPicBox";
+            this.fitsuggIconPicBox.Size = new System.Drawing.Size(59, 72);
+            this.fitsuggIconPicBox.TabIndex = 31;
+            this.fitsuggIconPicBox.TabStop = false;
             // 
             // yourprogress3Picbox
             // 
@@ -537,15 +537,15 @@ namespace Fitness4u__Project_
             this.MainScreenForm_mainmenuIcon.TabIndex = 1;
             this.MainScreenForm_mainmenuIcon.TabStop = false;
             // 
-            // MainScreenForm_btmnavbarlinePicBox
+            // MainScreenForm_btmnavbarlinePicbox
             // 
-            this.MainScreenForm_btmnavbarlinePicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.MainScreenForm_btmnavbarlinePicBox.Location = new System.Drawing.Point(0, 600);
-            this.MainScreenForm_btmnavbarlinePicBox.Name = "MainScreenForm_btmnavbarlinePicBox";
-            this.MainScreenForm_btmnavbarlinePicBox.Size = new System.Drawing.Size(385, 5);
-            this.MainScreenForm_btmnavbarlinePicBox.TabIndex = 0;
-            this.MainScreenForm_btmnavbarlinePicBox.TabStop = false;
-            this.MainScreenForm_btmnavbarlinePicBox.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.MainScreenForm_btmnavbarlinePicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
+            this.MainScreenForm_btmnavbarlinePicbox.Location = new System.Drawing.Point(0, 600);
+            this.MainScreenForm_btmnavbarlinePicbox.Name = "MainScreenForm_btmnavbarlinePicbox";
+            this.MainScreenForm_btmnavbarlinePicbox.Size = new System.Drawing.Size(385, 5);
+            this.MainScreenForm_btmnavbarlinePicbox.TabIndex = 0;
+            this.MainScreenForm_btmnavbarlinePicbox.TabStop = false;
+            this.MainScreenForm_btmnavbarlinePicbox.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Main_Screen_Form
             // 
@@ -562,11 +562,11 @@ namespace Fitness4u__Project_
             this.Controls.Add(this.yourprogressgraphXPicbox);
             this.Controls.Add(this.yourprogressgraphYPicbox);
             this.Controls.Add(this.yourprogressText1Lbl);
-            this.Controls.Add(this.yourprogressIconPicbox);
-            this.Controls.Add(this.journalIconPicbox);
+            this.Controls.Add(this.yourprogressIconPicBox);
+            this.Controls.Add(this.journalIconPicBox);
             this.Controls.Add(this.journalText2Lbl);
             this.Controls.Add(this.journalText1Lbl);
-            this.Controls.Add(this.fitsuggIconPicbox);
+            this.Controls.Add(this.fitsuggIconPicBox);
             this.Controls.Add(this.fitsuggText2Lbl);
             this.Controls.Add(this.fitsuggText1Lbl);
             this.Controls.Add(this.minsexercisingLblVar);
@@ -597,16 +597,16 @@ namespace Fitness4u__Project_
             this.Controls.Add(this.MainScreenForm_userIcon);
             this.Controls.Add(this.MainScreenForm_journalIcon);
             this.Controls.Add(this.MainScreenForm_mainmenuIcon);
-            this.Controls.Add(this.MainScreenForm_btmnavbarlinePicBox);
+            this.Controls.Add(this.MainScreenForm_btmnavbarlinePicbox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Main_Screen_Form";
             this.Text = "MainScreenForm";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressgraphXPicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressgraphYPicbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yourprogressIconPicbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.journalIconPicbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fitsuggIconPicbox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yourprogressIconPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.journalIconPicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fitsuggIconPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogress3Picbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogress2Picbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogress1Picbox)).EndInit();
@@ -624,7 +624,7 @@ namespace Fitness4u__Project_
             ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_userIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_journalIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_mainmenuIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_btmnavbarlinePicBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainScreenForm_btmnavbarlinePicbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -632,7 +632,7 @@ namespace Fitness4u__Project_
 
         #endregion
 
-        private System.Windows.Forms.PictureBox MainScreenForm_btmnavbarlinePicBox;
+        private System.Windows.Forms.PictureBox MainScreenForm_btmnavbarlinePicbox;
         private System.Windows.Forms.PictureBox MainScreenForm_mainmenuIcon;
         private System.Windows.Forms.PictureBox MainScreenForm_journalIcon;
         private System.Windows.Forms.PictureBox MainScreenForm_userIcon;
@@ -663,11 +663,11 @@ namespace Fitness4u__Project_
         private System.Windows.Forms.Label minsexercisingLblVar;
         private System.Windows.Forms.Label fitsuggText1Lbl;
         private System.Windows.Forms.Label fitsuggText2Lbl;
-        private System.Windows.Forms.PictureBox fitsuggIconPicbox;
+        private System.Windows.Forms.PictureBox fitsuggIconPicBox;
         private System.Windows.Forms.Label journalText1Lbl;
         private System.Windows.Forms.Label journalText2Lbl;
-        private System.Windows.Forms.PictureBox journalIconPicbox;
-        private System.Windows.Forms.PictureBox yourprogressIconPicbox;
+        private System.Windows.Forms.PictureBox journalIconPicBox;
+        private System.Windows.Forms.PictureBox yourprogressIconPicBox;
         private System.Windows.Forms.Label yourprogressText1Lbl;
         private System.Windows.Forms.PictureBox yourprogressgraphYPicbox;
         private System.Windows.Forms.PictureBox yourprogressgraphXPicbox;

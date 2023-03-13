@@ -16,5 +16,15 @@ namespace Fitness4u__Project_
         {
             InitializeComponent();
         }
+
+        private void Fitness_journal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void yourprogressgraphXPicbox_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
