@@ -56,7 +56,7 @@
             this.cardiogroupLine4PicBox = new System.Windows.Forms.PictureBox();
             this.cardiogroupLine1PicBox = new System.Windows.Forms.PictureBox();
             this.ExerciseList_exerciselistIcon = new System.Windows.Forms.PictureBox();
-            this.ExcerciseList_userIcon = new System.Windows.Forms.PictureBox();
+            this.ExerciseList_userIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_journalIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_mainmenuIcon = new System.Windows.Forms.PictureBox();
             this.ExerciseList_fitsugIcon = new System.Windows.Forms.PictureBox();
@@ -86,7 +86,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine4PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine1PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_exerciselistIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExcerciseList_userIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_userIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_journalIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_mainmenuIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_fitsugIcon)).BeginInit();
@@ -354,14 +354,14 @@
             this.ExerciseList_exerciselistIcon.TabIndex = 5;
             this.ExerciseList_exerciselistIcon.TabStop = false;
             // 
-            // ExcerciseList_userIcon
+            // ExerciseList_userIcon
             // 
-            this.ExcerciseList_userIcon.Image = global::Fitness4u__Project_.Properties.Resources.Sample_User_Icon_1_;
-            this.ExcerciseList_userIcon.Location = new System.Drawing.Point(314, 617);
-            this.ExcerciseList_userIcon.Name = "ExcerciseList_userIcon";
-            this.ExcerciseList_userIcon.Size = new System.Drawing.Size(51, 50);
-            this.ExcerciseList_userIcon.TabIndex = 4;
-            this.ExcerciseList_userIcon.TabStop = false;
+            this.ExerciseList_userIcon.Image = global::Fitness4u__Project_.Properties.Resources.Sample_User_Icon_1_;
+            this.ExerciseList_userIcon.Location = new System.Drawing.Point(314, 617);
+            this.ExerciseList_userIcon.Name = "ExerciseList_userIcon";
+            this.ExerciseList_userIcon.Size = new System.Drawing.Size(51, 50);
+            this.ExerciseList_userIcon.TabIndex = 4;
+            this.ExerciseList_userIcon.TabStop = false;
             // 
             // ExerciseList_journalIcon
             // 
@@ -433,7 +433,7 @@
             this.Controls.Add(this.cardiogroupLine4PicBox);
             this.Controls.Add(this.cardiogroupLine1PicBox);
             this.Controls.Add(this.ExerciseList_exerciselistIcon);
-            this.Controls.Add(this.ExcerciseList_userIcon);
+            this.Controls.Add(this.ExerciseList_userIcon);
             this.Controls.Add(this.ExerciseList_journalIcon);
             this.Controls.Add(this.ExerciseList_mainmenuIcon);
             this.Controls.Add(this.ExerciseList_fitsugIcon);
@@ -466,7 +466,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine4PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine1PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_exerciselistIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExcerciseList_userIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_userIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_journalIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_mainmenuIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_fitsugIcon)).EndInit();
@@ -482,7 +482,7 @@
         private System.Windows.Forms.PictureBox ExerciseList_fitsugIcon;
         private System.Windows.Forms.PictureBox ExerciseList_mainmenuIcon;
         private System.Windows.Forms.PictureBox ExerciseList_journalIcon;
-        private System.Windows.Forms.PictureBox ExcerciseList_userIcon;
+        private System.Windows.Forms.PictureBox ExerciseList_userIcon;
         private System.Windows.Forms.PictureBox ExerciseList_exerciselistIcon;
         private System.Windows.Forms.PictureBox cardiogroupLine1PicBox;
         private System.Windows.Forms.PictureBox cardiogroupLine4PicBox;

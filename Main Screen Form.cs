@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fitness4u__Project_
 {
-    public partial class Main_Screen_Form : Form
+    public partial class Main_Screen : Form
     {
-        public Main_Screen_Form()
+        public Main_Screen()
         {
             InitializeComponent();
         }
@@ -60,6 +60,25 @@ namespace Fitness4u__Project_
         private void yourprogresssatLbl_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void journalIconPicBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fitsuggText1Lbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainScreenForm_fitsugIcon_Click(object sender, EventArgs e)
+        {
+            Fitness_Suggestion_Page icon2 = new Fitness_Suggestion_Page(); // Creates a new object called "Btn2" 
+            icon2.Show(); // Opens icon2 - the variable for the "Fitness_Suggestion_Page"
+
+            Main_Screen currentpage = new Main_Screen(); // Creates a new object called "currentpage"
+            currentpage.Hide(); // Closes the current page
         }
     }
 }

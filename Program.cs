@@ -16,7 +16,7 @@ namespace Fitness4u__Project_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_Screen_Form());
+            Application.Run(new Main_Screen());
         }
     }
 }
