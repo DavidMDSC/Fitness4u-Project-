@@ -393,6 +393,16 @@ namespace Fitness4u__Project_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap userIconBlack {
+            get {
+                object obj = ResourceManager.GetObject("userIconBlack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Work_sans_font {
             get {
                 object obj = ResourceManager.GetObject("Work sans font", resourceCulture);
