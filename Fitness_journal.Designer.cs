@@ -282,6 +282,7 @@
             this.FitnessJournal_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
             this.FitnessJournal_exerciselistIcon.TabIndex = 11;
             this.FitnessJournal_exerciselistIcon.TabStop = false;
+            this.FitnessJournal_exerciselistIcon.Click += new System.EventHandler(this.FitnessJournal_exerciselistIcon_Click);
             // 
             // FitnessJournal_fitsugIcon
             // 
@@ -291,6 +292,7 @@
             this.FitnessJournal_fitsugIcon.Size = new System.Drawing.Size(48, 50);
             this.FitnessJournal_fitsugIcon.TabIndex = 10;
             this.FitnessJournal_fitsugIcon.TabStop = false;
+            this.FitnessJournal_fitsugIcon.Click += new System.EventHandler(this.FitnessJournal_fitsugIcon_Click);
             // 
             // FitnessJournal_userIcon
             // 
@@ -300,6 +302,7 @@
             this.FitnessJournal_userIcon.Size = new System.Drawing.Size(51, 50);
             this.FitnessJournal_userIcon.TabIndex = 9;
             this.FitnessJournal_userIcon.TabStop = false;
+            this.FitnessJournal_userIcon.Click += new System.EventHandler(this.FitnessJournal_userIcon_Click);
             // 
             // FitnessJournal_journalIcon
             // 
@@ -309,6 +312,7 @@
             this.FitnessJournal_journalIcon.Size = new System.Drawing.Size(63, 52);
             this.FitnessJournal_journalIcon.TabIndex = 8;
             this.FitnessJournal_journalIcon.TabStop = false;
+            this.FitnessJournal_journalIcon.Click += new System.EventHandler(this.FitnessJournal_journalIcon_Click);
             // 
             // FitnessJournal_mainmenuIcon
             // 
@@ -318,6 +322,7 @@
             this.FitnessJournal_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
             this.FitnessJournal_mainmenuIcon.TabIndex = 7;
             this.FitnessJournal_mainmenuIcon.TabStop = false;
+            this.FitnessJournal_mainmenuIcon.Click += new System.EventHandler(this.FitnessJournal_mainmenuIcon_Click);
             // 
             // FitnessJournal_btmnavbarlinePicbox
             // 

@@ -26,5 +26,30 @@ namespace Fitness4u__Project_
         {
 
         }
+
+        private void FitnessJournal_exerciselistIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FitnessJournal_fitsugIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FitnessJournal_mainmenuIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FitnessJournal_journalIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FitnessJournal_userIcon_Click(object sender, EventArgs e)
+        {
+             
+        }
     }
 }

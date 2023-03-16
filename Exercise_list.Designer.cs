@@ -353,6 +353,7 @@
             this.ExerciseList_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
             this.ExerciseList_exerciselistIcon.TabIndex = 5;
             this.ExerciseList_exerciselistIcon.TabStop = false;
+            this.ExerciseList_exerciselistIcon.Click += new System.EventHandler(this.ExerciseList_exerciselistIcon_Click);
             // 
             // ExerciseList_userIcon
             // 
@@ -362,6 +363,7 @@
             this.ExerciseList_userIcon.Size = new System.Drawing.Size(51, 50);
             this.ExerciseList_userIcon.TabIndex = 4;
             this.ExerciseList_userIcon.TabStop = false;
+            this.ExerciseList_userIcon.Click += new System.EventHandler(this.ExerciseList_userIcon_Click);
             // 
             // ExerciseList_journalIcon
             // 
@@ -371,6 +373,7 @@
             this.ExerciseList_journalIcon.Size = new System.Drawing.Size(63, 52);
             this.ExerciseList_journalIcon.TabIndex = 3;
             this.ExerciseList_journalIcon.TabStop = false;
+            this.ExerciseList_journalIcon.Click += new System.EventHandler(this.ExerciseList_journalIcon_Click);
             // 
             // ExerciseList_mainmenuIcon
             // 
@@ -380,7 +383,7 @@
             this.ExerciseList_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
             this.ExerciseList_mainmenuIcon.TabIndex = 2;
             this.ExerciseList_mainmenuIcon.TabStop = false;
-            this.ExerciseList_mainmenuIcon.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.ExerciseList_mainmenuIcon.Click += new System.EventHandler(this.ExerciseList_mainmenuIcon_Click);
             // 
             // ExerciseList_fitsugIcon
             // 
@@ -390,6 +393,7 @@
             this.ExerciseList_fitsugIcon.Size = new System.Drawing.Size(48, 50);
             this.ExerciseList_fitsugIcon.TabIndex = 1;
             this.ExerciseList_fitsugIcon.TabStop = false;
+            this.ExerciseList_fitsugIcon.Click += new System.EventHandler(this.ExerciseList_fitsugIcon_Click);
             // 
             // ExerciseList_btmnavbarlinePicBox
             // 
