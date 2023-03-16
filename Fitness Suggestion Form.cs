@@ -26,5 +26,19 @@ namespace Fitness4u__Project_
         {
 
         }
+
+        private void FitnessSuggestionPage_mainmenuIcon_Click(object sender, EventArgs e)
+        {
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of Main_Screen
+            Main_Screen MainScreen = new Main_Screen();
+            // show Main_Screen
+            MainScreen.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            MainScreen = null;
+            // show Main_screen again
+            this.Show();
+        }
     }
 }

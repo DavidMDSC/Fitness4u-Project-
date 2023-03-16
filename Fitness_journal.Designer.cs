@@ -110,7 +110,7 @@
             // 
             this.lastweekpageLbl.AutoSize = true;
             this.lastweekpageLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastweekpageLbl.Location = new System.Drawing.Point(68, 37);
+            this.lastweekpageLbl.Location = new System.Drawing.Point(70, 37);
             this.lastweekpageLbl.Name = "lastweekpageLbl";
             this.lastweekpageLbl.Size = new System.Drawing.Size(81, 20);
             this.lastweekpageLbl.TabIndex = 27;
@@ -120,7 +120,7 @@
             // 
             this.lastmonthpageLbl.AutoSize = true;
             this.lastmonthpageLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastmonthpageLbl.Location = new System.Drawing.Point(224, 37);
+            this.lastmonthpageLbl.Location = new System.Drawing.Point(226, 37);
             this.lastmonthpageLbl.Name = "lastmonthpageLbl";
             this.lastmonthpageLbl.Size = new System.Drawing.Size(89, 20);
             this.lastmonthpageLbl.TabIndex = 28;
@@ -130,7 +130,7 @@
             // 
             this.week_mostrepexerciseLbl.AutoSize = true;
             this.week_mostrepexerciseLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week_mostrepexerciseLbl.Location = new System.Drawing.Point(45, 77);
+            this.week_mostrepexerciseLbl.Location = new System.Drawing.Point(47, 77);
             this.week_mostrepexerciseLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.week_mostrepexerciseLbl.Name = "week_mostrepexerciseLbl";
             this.week_mostrepexerciseLbl.Size = new System.Drawing.Size(65, 48);
@@ -141,7 +141,7 @@
             // 
             this.week_targetsachievedLbl.AutoSize = true;
             this.week_targetsachievedLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week_targetsachievedLbl.Location = new System.Drawing.Point(45, 161);
+            this.week_targetsachievedLbl.Location = new System.Drawing.Point(47, 161);
             this.week_targetsachievedLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.week_targetsachievedLbl.Name = "week_targetsachievedLbl";
             this.week_targetsachievedLbl.Size = new System.Drawing.Size(63, 32);
@@ -152,7 +152,7 @@
             // 
             this.week_targetsachievedLblVar.AutoSize = true;
             this.week_targetsachievedLblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week_targetsachievedLblVar.Location = new System.Drawing.Point(131, 162);
+            this.week_targetsachievedLblVar.Location = new System.Drawing.Point(133, 162);
             this.week_targetsachievedLblVar.Name = "week_targetsachievedLblVar";
             this.week_targetsachievedLblVar.Size = new System.Drawing.Size(29, 31);
             this.week_targetsachievedLblVar.TabIndex = 32;
@@ -161,7 +161,7 @@
             // journalupdatePicBox
             // 
             this.journalupdatePicBox.Image = global::Fitness4u__Project_.Properties.Resources.plus_icon;
-            this.journalupdatePicBox.Location = new System.Drawing.Point(44, 213);
+            this.journalupdatePicBox.Location = new System.Drawing.Point(46, 213);
             this.journalupdatePicBox.Name = "journalupdatePicBox";
             this.journalupdatePicBox.Size = new System.Drawing.Size(50, 50);
             this.journalupdatePicBox.TabIndex = 33;
@@ -169,7 +169,7 @@
             // 
             // week_mostrepexercisePicBoxVar
             // 
-            this.week_mostrepexercisePicBoxVar.Location = new System.Drawing.Point(117, 76);
+            this.week_mostrepexercisePicBoxVar.Location = new System.Drawing.Point(119, 76);
             this.week_mostrepexercisePicBoxVar.Name = "week_mostrepexercisePicBoxVar";
             this.week_mostrepexercisePicBoxVar.Size = new System.Drawing.Size(58, 50);
             this.week_mostrepexercisePicBoxVar.TabIndex = 30;
@@ -178,7 +178,7 @@
             // journalinnerLine3Picbox
             // 
             this.journalinnerLine3Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalinnerLine3Picbox.Location = new System.Drawing.Point(31, 273);
+            this.journalinnerLine3Picbox.Location = new System.Drawing.Point(33, 273);
             this.journalinnerLine3Picbox.Name = "journalinnerLine3Picbox";
             this.journalinnerLine3Picbox.Size = new System.Drawing.Size(316, 3);
             this.journalinnerLine3Picbox.TabIndex = 26;
@@ -187,7 +187,7 @@
             // journalouterLine1rightPicbox
             // 
             this.journalouterLine1rightPicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalouterLine1rightPicbox.Location = new System.Drawing.Point(344, 91);
+            this.journalouterLine1rightPicbox.Location = new System.Drawing.Point(346, 91);
             this.journalouterLine1rightPicbox.Name = "journalouterLine1rightPicbox";
             this.journalouterLine1rightPicbox.Size = new System.Drawing.Size(18, 3);
             this.journalouterLine1rightPicbox.TabIndex = 25;
@@ -196,7 +196,7 @@
             // journalouterLine1leftPicbox
             // 
             this.journalouterLine1leftPicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalouterLine1leftPicbox.Location = new System.Drawing.Point(16, 91);
+            this.journalouterLine1leftPicbox.Location = new System.Drawing.Point(18, 91);
             this.journalouterLine1leftPicbox.Name = "journalouterLine1leftPicbox";
             this.journalouterLine1leftPicbox.Size = new System.Drawing.Size(18, 3);
             this.journalouterLine1leftPicbox.TabIndex = 24;
@@ -205,7 +205,7 @@
             // journalouterLine3Picbox
             // 
             this.journalouterLine3Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalouterLine3Picbox.Location = new System.Drawing.Point(14, 291);
+            this.journalouterLine3Picbox.Location = new System.Drawing.Point(16, 291);
             this.journalouterLine3Picbox.Name = "journalouterLine3Picbox";
             this.journalouterLine3Picbox.Size = new System.Drawing.Size(351, 3);
             this.journalouterLine3Picbox.TabIndex = 22;
@@ -214,7 +214,7 @@
             // journalouterLine2Picbox
             // 
             this.journalouterLine2Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalouterLine2Picbox.Location = new System.Drawing.Point(362, 91);
+            this.journalouterLine2Picbox.Location = new System.Drawing.Point(364, 91);
             this.journalouterLine2Picbox.Name = "journalouterLine2Picbox";
             this.journalouterLine2Picbox.Size = new System.Drawing.Size(3, 203);
             this.journalouterLine2Picbox.TabIndex = 21;
@@ -223,7 +223,7 @@
             // journalouterLine4Picbox
             // 
             this.journalouterLine4Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalouterLine4Picbox.Location = new System.Drawing.Point(13, 91);
+            this.journalouterLine4Picbox.Location = new System.Drawing.Point(15, 91);
             this.journalouterLine4Picbox.Name = "journalouterLine4Picbox";
             this.journalouterLine4Picbox.Size = new System.Drawing.Size(3, 203);
             this.journalouterLine4Picbox.TabIndex = 20;
@@ -232,7 +232,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.pictureBox6.Location = new System.Drawing.Point(31, 273);
+            this.pictureBox6.Location = new System.Drawing.Point(33, 273);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(0, 0);
             this.pictureBox6.TabIndex = 17;
@@ -241,7 +241,7 @@
             // journalinnerLine2Picbox
             // 
             this.journalinnerLine2Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalinnerLine2Picbox.Location = new System.Drawing.Point(344, 26);
+            this.journalinnerLine2Picbox.Location = new System.Drawing.Point(346, 26);
             this.journalinnerLine2Picbox.Name = "journalinnerLine2Picbox";
             this.journalinnerLine2Picbox.Size = new System.Drawing.Size(3, 250);
             this.journalinnerLine2Picbox.TabIndex = 16;
@@ -250,7 +250,7 @@
             // journalinnerpagepartingPicbox
             // 
             this.journalinnerpagepartingPicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalinnerpagepartingPicbox.Location = new System.Drawing.Point(188, 26);
+            this.journalinnerpagepartingPicbox.Location = new System.Drawing.Point(190, 26);
             this.journalinnerpagepartingPicbox.Name = "journalinnerpagepartingPicbox";
             this.journalinnerpagepartingPicbox.Size = new System.Drawing.Size(3, 250);
             this.journalinnerpagepartingPicbox.TabIndex = 15;
@@ -259,7 +259,7 @@
             // journalinnerLine4Picbox
             // 
             this.journalinnerLine4Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalinnerLine4Picbox.Location = new System.Drawing.Point(31, 26);
+            this.journalinnerLine4Picbox.Location = new System.Drawing.Point(33, 26);
             this.journalinnerLine4Picbox.Name = "journalinnerLine4Picbox";
             this.journalinnerLine4Picbox.Size = new System.Drawing.Size(3, 250);
             this.journalinnerLine4Picbox.TabIndex = 14;
@@ -268,7 +268,7 @@
             // journalinnerLine1Picbox
             // 
             this.journalinnerLine1Picbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.journalinnerLine1Picbox.Location = new System.Drawing.Point(31, 26);
+            this.journalinnerLine1Picbox.Location = new System.Drawing.Point(33, 26);
             this.journalinnerLine1Picbox.Name = "journalinnerLine1Picbox";
             this.journalinnerLine1Picbox.Size = new System.Drawing.Size(316, 3);
             this.journalinnerLine1Picbox.TabIndex = 12;
@@ -332,7 +332,7 @@
             // 
             this.month_targetsachievedLblVar.AutoSize = true;
             this.month_targetsachievedLblVar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.month_targetsachievedLblVar.Location = new System.Drawing.Point(288, 158);
+            this.month_targetsachievedLblVar.Location = new System.Drawing.Point(290, 158);
             this.month_targetsachievedLblVar.Name = "month_targetsachievedLblVar";
             this.month_targetsachievedLblVar.Size = new System.Drawing.Size(29, 31);
             this.month_targetsachievedLblVar.TabIndex = 37;
@@ -342,7 +342,7 @@
             // 
             this.month_targetsachievedLbl.AutoSize = true;
             this.month_targetsachievedLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.month_targetsachievedLbl.Location = new System.Drawing.Point(202, 157);
+            this.month_targetsachievedLbl.Location = new System.Drawing.Point(204, 157);
             this.month_targetsachievedLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_targetsachievedLbl.Name = "month_targetsachievedLbl";
             this.month_targetsachievedLbl.Size = new System.Drawing.Size(63, 32);
@@ -351,7 +351,7 @@
             // 
             // month_mostrepexercisePicBoxVar
             // 
-            this.month_mostrepexercisePicBoxVar.Location = new System.Drawing.Point(274, 75);
+            this.month_mostrepexercisePicBoxVar.Location = new System.Drawing.Point(276, 75);
             this.month_mostrepexercisePicBoxVar.Name = "month_mostrepexercisePicBoxVar";
             this.month_mostrepexercisePicBoxVar.Size = new System.Drawing.Size(58, 50);
             this.month_mostrepexercisePicBoxVar.TabIndex = 35;
@@ -361,7 +361,7 @@
             // 
             this.month_mostrepexerciseLbl.AutoSize = true;
             this.month_mostrepexerciseLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.month_mostrepexerciseLbl.Location = new System.Drawing.Point(202, 76);
+            this.month_mostrepexerciseLbl.Location = new System.Drawing.Point(204, 76);
             this.month_mostrepexerciseLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_mostrepexerciseLbl.Name = "month_mostrepexerciseLbl";
             this.month_mostrepexerciseLbl.Size = new System.Drawing.Size(65, 48);
@@ -372,7 +372,7 @@
             // 
             this.month_fitsuggactivityLbl.AutoSize = true;
             this.month_fitsuggactivityLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.month_fitsuggactivityLbl.Location = new System.Drawing.Point(202, 212);
+            this.month_fitsuggactivityLbl.Location = new System.Drawing.Point(204, 212);
             this.month_fitsuggactivityLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_fitsuggactivityLbl.Name = "month_fitsuggactivityLbl";
             this.month_fitsuggactivityLbl.Size = new System.Drawing.Size(76, 48);
@@ -381,7 +381,7 @@
             // 
             // month_fitsuggactivityPicBoxVar
             // 
-            this.month_fitsuggactivityPicBoxVar.Location = new System.Drawing.Point(284, 213);
+            this.month_fitsuggactivityPicBoxVar.Location = new System.Drawing.Point(286, 213);
             this.month_fitsuggactivityPicBoxVar.Name = "month_fitsuggactivityPicBoxVar";
             this.month_fitsuggactivityPicBoxVar.Size = new System.Drawing.Size(50, 50);
             this.month_fitsuggactivityPicBoxVar.TabIndex = 39;

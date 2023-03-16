@@ -74,11 +74,63 @@ namespace Fitness4u__Project_
 
         private void MainScreenForm_fitsugIcon_Click(object sender, EventArgs e)
         {
-            Fitness_Suggestion_Page icon2 = new Fitness_Suggestion_Page(); // Creates a new object called "Btn2" 
-            icon2.Show(); // Opens icon2 - the variable for the "Fitness_Suggestion_Page"
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of Fitness_Suggestion_Page
+            Fitness_Suggestion_Page FitnessSuggestionPage = new Fitness_Suggestion_Page();
+            // show Fitness_Suggestion_Page
+            FitnessSuggestionPage.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            FitnessSuggestionPage = null;
+            // show Main_screen again
+            this.Show();
+        }
 
-            Main_Screen currentpage = new Main_Screen(); // Creates a new object called "currentpage"
-            currentpage.Hide(); // Closes the current page
+        private void MainScreenForm_mainmenuIcon_Click(object sender, EventArgs e)
+        {
+            // DO NOT TOUCH - THIS BUTTON IS NOT MEANT TO FUNCTION
+        }
+
+        private void MainScreenForm_exerciselistIcon_Click(object sender, EventArgs e)
+        {
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of Exercise_list
+            Exercise_list ExerciseList = new Exercise_list();
+            // show Exercise_list
+            ExerciseList.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            ExerciseList = null;
+            // show Main_screen again
+            this.Show();
+        }
+
+        private void MainScreenForm_journalIcon_Click(object sender, EventArgs e)
+        {
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of Fitness_journal
+            Fitness_journal FitnessJournal = new Fitness_journal();
+            // show Fitness_journal
+            FitnessJournal.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            FitnessJournal = null;
+            // show Main_screen again
+            this.Show();
+        }
+
+        private void MainScreenForm_userIcon_Click(object sender, EventArgs e)
+        {
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of User_settings
+            User_settings UserSettings = new User_settings();
+            // show User_settings
+            UserSettings.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            UserSettings = null;
+            // show Main_screen again
+            this.Show();
         }
     }
 }

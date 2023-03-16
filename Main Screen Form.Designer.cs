@@ -502,6 +502,7 @@ namespace Fitness4u__Project_
             this.MainScreenForm_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
             this.MainScreenForm_exerciselistIcon.TabIndex = 5;
             this.MainScreenForm_exerciselistIcon.TabStop = false;
+            this.MainScreenForm_exerciselistIcon.Click += new System.EventHandler(this.MainScreenForm_exerciselistIcon_Click);
             // 
             // MainScreenForm_fitsugIcon
             // 
@@ -521,6 +522,7 @@ namespace Fitness4u__Project_
             this.MainScreenForm_userIcon.Size = new System.Drawing.Size(51, 50);
             this.MainScreenForm_userIcon.TabIndex = 3;
             this.MainScreenForm_userIcon.TabStop = false;
+            this.MainScreenForm_userIcon.Click += new System.EventHandler(this.MainScreenForm_userIcon_Click);
             // 
             // MainScreenForm_journalIcon
             // 
@@ -530,6 +532,7 @@ namespace Fitness4u__Project_
             this.MainScreenForm_journalIcon.Size = new System.Drawing.Size(63, 52);
             this.MainScreenForm_journalIcon.TabIndex = 2;
             this.MainScreenForm_journalIcon.TabStop = false;
+            this.MainScreenForm_journalIcon.Click += new System.EventHandler(this.MainScreenForm_journalIcon_Click);
             // 
             // MainScreenForm_mainmenuIcon
             // 
@@ -539,6 +542,7 @@ namespace Fitness4u__Project_
             this.MainScreenForm_mainmenuIcon.Size = new System.Drawing.Size(50, 50);
             this.MainScreenForm_mainmenuIcon.TabIndex = 1;
             this.MainScreenForm_mainmenuIcon.TabStop = false;
+            this.MainScreenForm_mainmenuIcon.Click += new System.EventHandler(this.MainScreenForm_mainmenuIcon_Click);
             // 
             // MainScreenForm_btmnavbarlinePicbox
             // 

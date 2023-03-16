@@ -301,6 +301,7 @@
             this.FitnessSuggestionPage_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
             this.FitnessSuggestionPage_mainmenuIcon.TabIndex = 7;
             this.FitnessSuggestionPage_mainmenuIcon.TabStop = false;
+            this.FitnessSuggestionPage_mainmenuIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_mainmenuIcon_Click);
             // 
             // FitnessSuggestionPage_userIcon
             // 
