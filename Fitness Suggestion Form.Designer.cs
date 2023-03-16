@@ -292,6 +292,7 @@
             this.FitnessSuggestionPage_fitsugIcon.Size = new System.Drawing.Size(48, 50);
             this.FitnessSuggestionPage_fitsugIcon.TabIndex = 8;
             this.FitnessSuggestionPage_fitsugIcon.TabStop = false;
+            this.FitnessSuggestionPage_fitsugIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_fitsugIcon_Click);
             // 
             // FitnessSuggestionPage_mainmenuIcon
             // 
@@ -311,6 +312,7 @@
             this.FitnessSuggestionPage_userIcon.Size = new System.Drawing.Size(51, 50);
             this.FitnessSuggestionPage_userIcon.TabIndex = 6;
             this.FitnessSuggestionPage_userIcon.TabStop = false;
+            this.FitnessSuggestionPage_userIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_userIcon_Click);
             // 
             // FitnessSuggestionPage_journalIcon
             // 
@@ -320,6 +322,7 @@
             this.FitnessSuggestionPage_journalIcon.Size = new System.Drawing.Size(63, 52);
             this.FitnessSuggestionPage_journalIcon.TabIndex = 5;
             this.FitnessSuggestionPage_journalIcon.TabStop = false;
+            this.FitnessSuggestionPage_journalIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_journalIcon_Click);
             // 
             // FitnessSuggestionPage_exerciselistIcon
             // 
@@ -329,6 +332,7 @@
             this.FitnessSuggestionPage_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
             this.FitnessSuggestionPage_exerciselistIcon.TabIndex = 4;
             this.FitnessSuggestionPage_exerciselistIcon.TabStop = false;
+            this.FitnessSuggestionPage_exerciselistIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_exerciselistIcon_Click);
             // 
             // FitnessSuggestionPage_btmnavbarlinePicbox
             // 

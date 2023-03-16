@@ -40,5 +40,50 @@ namespace Fitness4u__Project_
             // show Main_screen again
             this.Show();
         }
+
+        private void FitnessSuggestionPage_exerciselistIcon_Click(object sender, EventArgs e)
+        {
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of Exercise_list
+            Exercise_list ExerciseList = new Exercise_list();
+            // show Exercise_list
+            ExerciseList.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            ExerciseList = null;
+            // show Main_screen again
+            this.Show();
+
+            // THIS ISNT WORKING!!!
+        }
+
+        private void FitnessSuggestionPage_fitsugIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FitnessSuggestionPage_journalIcon_Click(object sender, EventArgs e)
+        {
+            // hide Fitness_Suggestion_Page
+            this.Hide();
+            // create an instance of Fitness_journal
+            Fitness_journal FitnessJournal = new Fitness_journal();
+            // Show Fitness_journal
+            FitnessJournal.ShowDialog(); // will halt/freeze the execution of the click event
+        }
+
+        private void FitnessSuggestionPage_userIcon_Click(object sender, EventArgs e)
+        {
+            // hide Main_Screen
+            this.Hide();
+            // create an instance of Exercise_list
+            User_settings UserSettings = new User_settings();
+            // show Exercise_list
+            UserSettings.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            UserSettings = null;
+            // show Main_screen again
+            this.Show();
+        }
     }
 }
