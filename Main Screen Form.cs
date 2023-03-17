@@ -88,7 +88,7 @@ namespace Fitness4u__Project_
 
         private void MainScreenForm_mainmenuIcon_Click(object sender, EventArgs e)
         {
-            // DO NOT TOUCH - THIS BUTTON IS NOT MEANT TO FUNCTION
+            // DO NOT TOUCH - THIS BUTTON IS NOT MEANT TO FUNCTION AS IT IS THE FORM WE AE ON NOW
         }
 
         private void MainScreenForm_exerciselistIcon_Click(object sender, EventArgs e)
