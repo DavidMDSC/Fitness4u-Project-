@@ -28,7 +28,7 @@ namespace Fitness4u__Project_
             // dispose of User_settings instance
             ExerciseList = null;
             // show User_settings again
-            this.Show();
+            //this.Show();
         }
 
         private void UserSettings_fitsugIcon_Click(object sender, EventArgs e)
