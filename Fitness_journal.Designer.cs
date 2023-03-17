@@ -133,7 +133,7 @@
             this.week_mostrepexerciseLbl.Location = new System.Drawing.Point(47, 77);
             this.week_mostrepexerciseLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.week_mostrepexerciseLbl.Name = "week_mostrepexerciseLbl";
-            this.week_mostrepexerciseLbl.Size = new System.Drawing.Size(65, 48);
+            this.week_mostrepexerciseLbl.Size = new System.Drawing.Size(66, 48);
             this.week_mostrepexerciseLbl.TabIndex = 29;
             this.week_mostrepexerciseLbl.Text = "Most repeated excercise";
             // 
@@ -144,7 +144,7 @@
             this.week_targetsachievedLbl.Location = new System.Drawing.Point(47, 161);
             this.week_targetsachievedLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.week_targetsachievedLbl.Name = "week_targetsachievedLbl";
-            this.week_targetsachievedLbl.Size = new System.Drawing.Size(63, 32);
+            this.week_targetsachievedLbl.Size = new System.Drawing.Size(64, 32);
             this.week_targetsachievedLbl.TabIndex = 31;
             this.week_targetsachievedLbl.Text = "Targets achieved";
             // 
@@ -282,6 +282,7 @@
             this.FitnessJournal_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
             this.FitnessJournal_exerciselistIcon.TabIndex = 11;
             this.FitnessJournal_exerciselistIcon.TabStop = false;
+            this.FitnessJournal_exerciselistIcon.Click += new System.EventHandler(this.FitnessJournal_exerciselistIcon_Click);
             // 
             // FitnessJournal_fitsugIcon
             // 
@@ -291,6 +292,7 @@
             this.FitnessJournal_fitsugIcon.Size = new System.Drawing.Size(48, 50);
             this.FitnessJournal_fitsugIcon.TabIndex = 10;
             this.FitnessJournal_fitsugIcon.TabStop = false;
+            this.FitnessJournal_fitsugIcon.Click += new System.EventHandler(this.FitnessJournal_fitsugIcon_Click);
             // 
             // FitnessJournal_userIcon
             // 
@@ -300,6 +302,7 @@
             this.FitnessJournal_userIcon.Size = new System.Drawing.Size(51, 50);
             this.FitnessJournal_userIcon.TabIndex = 9;
             this.FitnessJournal_userIcon.TabStop = false;
+            this.FitnessJournal_userIcon.Click += new System.EventHandler(this.FitnessJournal_userIcon_Click);
             // 
             // FitnessJournal_journalIcon
             // 
@@ -309,6 +312,7 @@
             this.FitnessJournal_journalIcon.Size = new System.Drawing.Size(63, 52);
             this.FitnessJournal_journalIcon.TabIndex = 8;
             this.FitnessJournal_journalIcon.TabStop = false;
+            this.FitnessJournal_journalIcon.Click += new System.EventHandler(this.FitnessJournal_journalIcon_Click);
             // 
             // FitnessJournal_mainmenuIcon
             // 
@@ -318,6 +322,7 @@
             this.FitnessJournal_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
             this.FitnessJournal_mainmenuIcon.TabIndex = 7;
             this.FitnessJournal_mainmenuIcon.TabStop = false;
+            this.FitnessJournal_mainmenuIcon.Click += new System.EventHandler(this.FitnessJournal_mainmenuIcon_Click);
             // 
             // FitnessJournal_btmnavbarlinePicbox
             // 
@@ -345,7 +350,7 @@
             this.month_targetsachievedLbl.Location = new System.Drawing.Point(204, 157);
             this.month_targetsachievedLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_targetsachievedLbl.Name = "month_targetsachievedLbl";
-            this.month_targetsachievedLbl.Size = new System.Drawing.Size(63, 32);
+            this.month_targetsachievedLbl.Size = new System.Drawing.Size(64, 32);
             this.month_targetsachievedLbl.TabIndex = 36;
             this.month_targetsachievedLbl.Text = "Targets achieved";
             // 
@@ -364,7 +369,7 @@
             this.month_mostrepexerciseLbl.Location = new System.Drawing.Point(204, 76);
             this.month_mostrepexerciseLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_mostrepexerciseLbl.Name = "month_mostrepexerciseLbl";
-            this.month_mostrepexerciseLbl.Size = new System.Drawing.Size(65, 48);
+            this.month_mostrepexerciseLbl.Size = new System.Drawing.Size(66, 48);
             this.month_mostrepexerciseLbl.TabIndex = 34;
             this.month_mostrepexerciseLbl.Text = "Most repeated excercise";
             // 
@@ -375,7 +380,7 @@
             this.month_fitsuggactivityLbl.Location = new System.Drawing.Point(204, 212);
             this.month_fitsuggactivityLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_fitsuggactivityLbl.Name = "month_fitsuggactivityLbl";
-            this.month_fitsuggactivityLbl.Size = new System.Drawing.Size(76, 48);
+            this.month_fitsuggactivityLbl.Size = new System.Drawing.Size(77, 48);
             this.month_fitsuggactivityLbl.TabIndex = 38;
             this.month_fitsuggactivityLbl.Text = "Fitness suggestion activity";
             // 

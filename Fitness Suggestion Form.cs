@@ -53,8 +53,6 @@ namespace Fitness4u__Project_
             ExerciseList = null;
             // show Main_screen again
             this.Show();
-
-            // THIS ISNT WORKING!!!
         }
 
         private void FitnessSuggestionPage_fitsugIcon_Click(object sender, EventArgs e)
@@ -70,6 +68,10 @@ namespace Fitness4u__Project_
             Fitness_journal FitnessJournal = new Fitness_journal();
             // Show Fitness_journal
             FitnessJournal.ShowDialog(); // will halt/freeze the execution of the click event
+            // dispose of Fitness_Suggestion_Page
+            FitnessJournal = null;
+            // show Fitness_Suggestion_Page again
+            this.Show();
         }
 
         private void FitnessSuggestionPage_userIcon_Click(object sender, EventArgs e)

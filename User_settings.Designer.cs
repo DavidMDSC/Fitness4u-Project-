@@ -66,6 +66,7 @@
             this.UserSettings_fitsugIcon.Size = new System.Drawing.Size(48, 50);
             this.UserSettings_fitsugIcon.TabIndex = 35;
             this.UserSettings_fitsugIcon.TabStop = false;
+            this.UserSettings_fitsugIcon.Click += new System.EventHandler(this.UserSettings_fitsugIcon_Click);
             // 
             // UserSettings_btmnavbarlinePicbox
             // 
@@ -84,6 +85,7 @@
             this.UserSettings_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
             this.UserSettings_mainmenuIcon.TabIndex = 34;
             this.UserSettings_mainmenuIcon.TabStop = false;
+            this.UserSettings_mainmenuIcon.Click += new System.EventHandler(this.UserSettings_mainmenuIcon_Click);
             // 
             // UserSettings_exerciselistIcon
             // 
@@ -93,6 +95,7 @@
             this.UserSettings_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
             this.UserSettings_exerciselistIcon.TabIndex = 31;
             this.UserSettings_exerciselistIcon.TabStop = false;
+            this.UserSettings_exerciselistIcon.Click += new System.EventHandler(this.UserSettings_exerciselistIcon_Click);
             // 
             // UserSettings_userIcon
             // 
@@ -102,6 +105,7 @@
             this.UserSettings_userIcon.Size = new System.Drawing.Size(51, 50);
             this.UserSettings_userIcon.TabIndex = 33;
             this.UserSettings_userIcon.TabStop = false;
+            this.UserSettings_userIcon.Click += new System.EventHandler(this.UserSettings_userIcon_Click);
             // 
             // UserSettings_journalIcon
             // 
@@ -111,6 +115,7 @@
             this.UserSettings_journalIcon.Size = new System.Drawing.Size(63, 52);
             this.UserSettings_journalIcon.TabIndex = 32;
             this.UserSettings_journalIcon.TabStop = false;
+            this.UserSettings_journalIcon.Click += new System.EventHandler(this.UserSettings_journalIcon_Click);
             // 
             // settingsheadingLbl
             // 
