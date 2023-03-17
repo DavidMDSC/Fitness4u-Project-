@@ -29,29 +29,29 @@ namespace Fitness4u__Project_
 
         private void FitnessSuggestionPage_mainmenuIcon_Click(object sender, EventArgs e)
         {
-            // hide Main_Screen
+            // hide Fitness_Suggestion_Page
             this.Hide();
             // create an instance of Main_Screen
             Main_Screen MainScreen = new Main_Screen();
             // show Main_Screen
             MainScreen.ShowDialog(); // will halt/freeze the execution of the click event.
-            // dispose of Main_Screen instance
+            // dispose of Fitness_Suggestion_Page instance
             MainScreen = null;
-            // show Main_screen again
+            // show Fitness_Suggestion_Page again
             this.Show();
         }
 
         private void FitnessSuggestionPage_exerciselistIcon_Click(object sender, EventArgs e)
         {
-            // hide Main_Screen
+            // hide Fitness_Suggestion_Page
             this.Hide();
             // create an instance of Exercise_list
             Exercise_list ExerciseList = new Exercise_list();
             // show Exercise_list
             ExerciseList.ShowDialog(); // will halt/freeze the execution of the click event.
-            // dispose of Main_Screen instance
+            // dispose of Fitness_Suggestion_Page instance
             ExerciseList = null;
-            // show Main_screen again
+            // show Fitness_Suggestion_Page again
             this.Show();
         }
 
@@ -68,7 +68,7 @@ namespace Fitness4u__Project_
             Fitness_journal FitnessJournal = new Fitness_journal();
             // Show Fitness_journal
             FitnessJournal.ShowDialog(); // will halt/freeze the execution of the click event
-            // dispose of Fitness_Suggestion_Page
+            // dispose of Fitness_Suggestion_Page instance
             FitnessJournal = null;
             // show Fitness_Suggestion_Page again
             this.Show();
@@ -76,15 +76,15 @@ namespace Fitness4u__Project_
 
         private void FitnessSuggestionPage_userIcon_Click(object sender, EventArgs e)
         {
-            // hide Main_Screen
+            // hide Fitness_Suggestion_Page
             this.Hide();
-            // create an instance of Exercise_list
+            // create an instance of User_settings
             User_settings UserSettings = new User_settings();
-            // show Exercise_list
+            // show User_settings
             UserSettings.ShowDialog(); // will halt/freeze the execution of the click event.
-            // dispose of Main_Screen instance
+            // dispose of Fitness_Suggestion_Page instance
             UserSettings = null;
-            // show Main_screen again
+            // show Fitness_Suggestion_Page again
             this.Show();
         }
     }

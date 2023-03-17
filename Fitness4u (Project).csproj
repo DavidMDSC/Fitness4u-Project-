@@ -52,11 +52,11 @@
     <Compile Include="Exercise_list.Designer.cs">
       <DependentUpon>Exercise_list.cs</DependentUpon>
     </Compile>
-    <Compile Include="Fitness Suggestion Form.cs">
+    <Compile Include="Fitness_Suggestion_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fitness Suggestion Form.Designer.cs">
-      <DependentUpon>Fitness Suggestion Form.cs</DependentUpon>
+    <Compile Include="Fitness_Suggestion_Form.Designer.cs">
+      <DependentUpon>Fitness_Suggestion_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Fitness_journal.cs">
       <SubType>Form</SubType>
@@ -81,8 +81,8 @@
     <EmbeddedResource Include="Exercise_list.resx">
       <DependentUpon>Exercise_list.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fitness Suggestion Form.resx">
-      <DependentUpon>Fitness Suggestion Form.cs</DependentUpon>
+    <EmbeddedResource Include="Fitness_Suggestion_Form.resx">
+      <DependentUpon>Fitness_Suggestion_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fitness_journal.resx">
       <DependentUpon>Fitness_journal.cs</DependentUpon>

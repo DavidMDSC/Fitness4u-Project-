@@ -71,7 +71,7 @@ namespace Fitness4u__Project_
 
         private void FitnessJournal_journalIcon_Click(object sender, EventArgs e)
         {
-
+            // DO NOT TOUCH - THIS BUTTON IS NOT MEANT TO FUNCTION AS IT THE FORM WE ARE ON NOW
         }
 
         private void FitnessJournal_userIcon_Click(object sender, EventArgs e)
