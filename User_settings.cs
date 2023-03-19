@@ -42,7 +42,7 @@ namespace Fitness4u__Project_
             // dispose of User_settings instance
             FitnessSuggestionPage = null;
             // show User_settings again
-            this.Show();
+            //this.Show();
         }
 
         private void UserSettings_mainmenuIcon_Click(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace Fitness4u__Project_
             // dispose of User_settings instance
             MainScreen = null;
             // show User_settings again
-            this.Show();
+            //this.Show();
         }
 
         private void UserSettings_journalIcon_Click(object sender, EventArgs e)
@@ -70,7 +70,7 @@ namespace Fitness4u__Project_
             // dispose of User_settings
             FitnessJournal = null;
             // show User_settings again
-            this.Show();
+            //this.Show();
         }
 
         private void UserSettings_userIcon_Click(object sender, EventArgs e)
