@@ -38,7 +38,7 @@ namespace Fitness4u__Project_
             // dispose of Fitness_journal instance
             ExerciseList = null;
             // show Fitness_journal again
-            //this.Show();
+            this.Show();
         }
 
         private void FitnessJournal_fitsugIcon_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace Fitness4u__Project_
             // dispose of Fitnss_journal instance
             FitnessSuggestionPage = null;
             // show Fitness_journal again
-            //this.Show();
+            this.Show();
         }
 
         private void FitnessJournal_mainmenuIcon_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace Fitness4u__Project_
             // dispose of Fitness_journal instance
             MainScreen = null;
             // show Fitness_journal again
-            //this.Show();
+            this.Show();
         }
 
         private void FitnessJournal_journalIcon_Click(object sender, EventArgs e)
@@ -85,7 +85,7 @@ namespace Fitness4u__Project_
             // dispose of Fitness_journal instance
             UserSettings = null;
             // show Fitness_journal again
-            //this.Show();
+            this.Show();
         }
     }
 }

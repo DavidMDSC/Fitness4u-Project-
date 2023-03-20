@@ -38,7 +38,7 @@ namespace Fitness4u__Project_
             // dispose of Exercise_list instance
             FitnessSuggestionPage = null;
             // show Exercise_list again
-            //this.Show();
+            this.Show();
         }
 
         private void ExerciseList_mainmenuIcon_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace Fitness4u__Project_
             // dispose of Exercise_list instance
             MainScreen = null;
             // show Exercise_list again
-            //this.Show();
+            this.Show();
         }
 
         private void ExerciseList_journalIcon_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace Fitness4u__Project_
             // dispose of Exercise_list instance
             FitnessJournal = null;
             // show Exercise_list again
-            //this.Show();
+            this.Show();
         }
 
         private void ExerciseList_userIcon_Click(object sender, EventArgs e)

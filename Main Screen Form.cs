@@ -83,7 +83,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             FitnessSuggestionPage = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
 
         private void MainScreenForm_mainmenuIcon_Click(object sender, EventArgs e)
@@ -102,7 +102,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             ExerciseList = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
 
         private void MainScreenForm_journalIcon_Click(object sender, EventArgs e)
@@ -116,7 +116,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             FitnessJournal = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
 
         private void MainScreenForm_userIcon_Click(object sender, EventArgs e)
@@ -130,7 +130,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             UserSettings = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
     }
 }
