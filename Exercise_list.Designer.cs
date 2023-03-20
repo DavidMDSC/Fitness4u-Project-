@@ -55,12 +55,6 @@
             this.cardiogroupLine3PicBox = new System.Windows.Forms.PictureBox();
             this.cardiogroupLine4PicBox = new System.Windows.Forms.PictureBox();
             this.cardiogroupLine1PicBox = new System.Windows.Forms.PictureBox();
-            this.ExerciseList_exerciselistIcon = new System.Windows.Forms.PictureBox();
-            this.ExerciseList_userIcon = new System.Windows.Forms.PictureBox();
-            this.ExerciseList_journalIcon = new System.Windows.Forms.PictureBox();
-            this.ExerciseList_mainmenuIcon = new System.Windows.Forms.PictureBox();
-            this.ExerciseList_fitsugIcon = new System.Windows.Forms.PictureBox();
-            this.ExerciseList_btmnavbarlinePicBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.favouritesIconPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline3PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline2PicBox)).BeginInit();
@@ -85,12 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine3PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine4PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine1PicBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_exerciselistIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_userIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_journalIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_mainmenuIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_fitsugIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_btmnavbarlinePicBox)).BeginInit();
             this.SuspendLayout();
             // 
             // cardiogroupLbl
@@ -345,65 +333,6 @@
             this.cardiogroupLine1PicBox.TabIndex = 6;
             this.cardiogroupLine1PicBox.TabStop = false;
             // 
-            // ExerciseList_exerciselistIcon
-            // 
-            this.ExerciseList_exerciselistIcon.Image = global::Fitness4u__Project_.Properties.Resources.Lightbulb_dark;
-            this.ExerciseList_exerciselistIcon.Location = new System.Drawing.Point(23, 617);
-            this.ExerciseList_exerciselistIcon.Name = "ExerciseList_exerciselistIcon";
-            this.ExerciseList_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
-            this.ExerciseList_exerciselistIcon.TabIndex = 5;
-            this.ExerciseList_exerciselistIcon.TabStop = false;
-            this.ExerciseList_exerciselistIcon.Click += new System.EventHandler(this.ExerciseList_exerciselistIcon_Click);
-            // 
-            // ExerciseList_userIcon
-            // 
-            this.ExerciseList_userIcon.Image = global::Fitness4u__Project_.Properties.Resources.Sample_User_Icon_1_;
-            this.ExerciseList_userIcon.Location = new System.Drawing.Point(314, 617);
-            this.ExerciseList_userIcon.Name = "ExerciseList_userIcon";
-            this.ExerciseList_userIcon.Size = new System.Drawing.Size(51, 50);
-            this.ExerciseList_userIcon.TabIndex = 4;
-            this.ExerciseList_userIcon.TabStop = false;
-            this.ExerciseList_userIcon.Click += new System.EventHandler(this.ExerciseList_userIcon_Click);
-            // 
-            // ExerciseList_journalIcon
-            // 
-            this.ExerciseList_journalIcon.Image = global::Fitness4u__Project_.Properties.Resources.open_book_icon_free_vector_3_1;
-            this.ExerciseList_journalIcon.Location = new System.Drawing.Point(234, 611);
-            this.ExerciseList_journalIcon.Name = "ExerciseList_journalIcon";
-            this.ExerciseList_journalIcon.Size = new System.Drawing.Size(63, 52);
-            this.ExerciseList_journalIcon.TabIndex = 3;
-            this.ExerciseList_journalIcon.TabStop = false;
-            this.ExerciseList_journalIcon.Click += new System.EventHandler(this.ExerciseList_journalIcon_Click);
-            // 
-            // ExerciseList_mainmenuIcon
-            // 
-            this.ExerciseList_mainmenuIcon.Image = global::Fitness4u__Project_.Properties.Resources._1407802_200__1_;
-            this.ExerciseList_mainmenuIcon.Location = new System.Drawing.Point(162, 609);
-            this.ExerciseList_mainmenuIcon.Name = "ExerciseList_mainmenuIcon";
-            this.ExerciseList_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
-            this.ExerciseList_mainmenuIcon.TabIndex = 2;
-            this.ExerciseList_mainmenuIcon.TabStop = false;
-            this.ExerciseList_mainmenuIcon.Click += new System.EventHandler(this.ExerciseList_mainmenuIcon_Click);
-            // 
-            // ExerciseList_fitsugIcon
-            // 
-            this.ExerciseList_fitsugIcon.Image = global::Fitness4u__Project_.Properties.Resources.Jumping_jacks_1_;
-            this.ExerciseList_fitsugIcon.Location = new System.Drawing.Point(96, 617);
-            this.ExerciseList_fitsugIcon.Name = "ExerciseList_fitsugIcon";
-            this.ExerciseList_fitsugIcon.Size = new System.Drawing.Size(48, 50);
-            this.ExerciseList_fitsugIcon.TabIndex = 1;
-            this.ExerciseList_fitsugIcon.TabStop = false;
-            this.ExerciseList_fitsugIcon.Click += new System.EventHandler(this.ExerciseList_fitsugIcon_Click);
-            // 
-            // ExerciseList_btmnavbarlinePicBox
-            // 
-            this.ExerciseList_btmnavbarlinePicBox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.ExerciseList_btmnavbarlinePicBox.Location = new System.Drawing.Point(0, 600);
-            this.ExerciseList_btmnavbarlinePicBox.Name = "ExerciseList_btmnavbarlinePicBox";
-            this.ExerciseList_btmnavbarlinePicBox.Size = new System.Drawing.Size(385, 5);
-            this.ExerciseList_btmnavbarlinePicBox.TabIndex = 0;
-            this.ExerciseList_btmnavbarlinePicBox.TabStop = false;
-            // 
             // Exercise_list
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -436,15 +365,8 @@
             this.Controls.Add(this.cardiogroupLine3PicBox);
             this.Controls.Add(this.cardiogroupLine4PicBox);
             this.Controls.Add(this.cardiogroupLine1PicBox);
-            this.Controls.Add(this.ExerciseList_exerciselistIcon);
-            this.Controls.Add(this.ExerciseList_userIcon);
-            this.Controls.Add(this.ExerciseList_journalIcon);
-            this.Controls.Add(this.ExerciseList_mainmenuIcon);
-            this.Controls.Add(this.ExerciseList_fitsugIcon);
-            this.Controls.Add(this.ExerciseList_btmnavbarlinePicBox);
             this.Name = "Exercise_list";
             this.Text = "Exercise_list";
-            this.Load += new System.EventHandler(this.Exercise_list_Load);
             ((System.ComponentModel.ISupportInitialize)(this.favouritesIconPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline3PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.favouritesDropline2PicBox)).EndInit();
@@ -469,25 +391,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine3PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine4PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cardiogroupLine1PicBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_exerciselistIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_userIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_journalIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_mainmenuIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_fitsugIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExerciseList_btmnavbarlinePicBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox ExerciseList_btmnavbarlinePicBox;
-        private System.Windows.Forms.PictureBox ExerciseList_fitsugIcon;
-        private System.Windows.Forms.PictureBox ExerciseList_mainmenuIcon;
-        private System.Windows.Forms.PictureBox ExerciseList_journalIcon;
-        private System.Windows.Forms.PictureBox ExerciseList_userIcon;
-        private System.Windows.Forms.PictureBox ExerciseList_exerciselistIcon;
         private System.Windows.Forms.PictureBox cardiogroupLine1PicBox;
         private System.Windows.Forms.PictureBox cardiogroupLine4PicBox;
         private System.Windows.Forms.PictureBox cardiogroupLine3PicBox;

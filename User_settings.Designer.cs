@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.UserSettings_fitsugIcon = new System.Windows.Forms.PictureBox();
-            this.UserSettings_btmnavbarlinePicbox = new System.Windows.Forms.PictureBox();
-            this.UserSettings_mainmenuIcon = new System.Windows.Forms.PictureBox();
-            this.UserSettings_exerciselistIcon = new System.Windows.Forms.PictureBox();
-            this.UserSettings_userIcon = new System.Windows.Forms.PictureBox();
-            this.UserSettings_journalIcon = new System.Windows.Forms.PictureBox();
             this.settingsheadingLbl = new System.Windows.Forms.Label();
             this.lineseperator1PicBox = new System.Windows.Forms.PictureBox();
             this.lineseperator2PicBox = new System.Windows.Forms.PictureBox();
@@ -48,74 +42,9 @@
             this.accessibilityLbl = new System.Windows.Forms.Label();
             this.reminderLbl = new System.Windows.Forms.Label();
             this.privacycentreLbl = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_fitsugIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_btmnavbarlinePicbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_mainmenuIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_exerciselistIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_userIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_journalIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineseperator1PicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineseperator2PicBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // UserSettings_fitsugIcon
-            // 
-            this.UserSettings_fitsugIcon.Image = global::Fitness4u__Project_.Properties.Resources.Jumping_jacks_1_;
-            this.UserSettings_fitsugIcon.Location = new System.Drawing.Point(96, 617);
-            this.UserSettings_fitsugIcon.Name = "UserSettings_fitsugIcon";
-            this.UserSettings_fitsugIcon.Size = new System.Drawing.Size(48, 50);
-            this.UserSettings_fitsugIcon.TabIndex = 35;
-            this.UserSettings_fitsugIcon.TabStop = false;
-            this.UserSettings_fitsugIcon.Click += new System.EventHandler(this.UserSettings_fitsugIcon_Click);
-            // 
-            // UserSettings_btmnavbarlinePicbox
-            // 
-            this.UserSettings_btmnavbarlinePicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.UserSettings_btmnavbarlinePicbox.Location = new System.Drawing.Point(0, 600);
-            this.UserSettings_btmnavbarlinePicbox.Name = "UserSettings_btmnavbarlinePicbox";
-            this.UserSettings_btmnavbarlinePicbox.Size = new System.Drawing.Size(385, 5);
-            this.UserSettings_btmnavbarlinePicbox.TabIndex = 30;
-            this.UserSettings_btmnavbarlinePicbox.TabStop = false;
-            // 
-            // UserSettings_mainmenuIcon
-            // 
-            this.UserSettings_mainmenuIcon.Image = global::Fitness4u__Project_.Properties.Resources._1407802_200__1_;
-            this.UserSettings_mainmenuIcon.Location = new System.Drawing.Point(162, 609);
-            this.UserSettings_mainmenuIcon.Name = "UserSettings_mainmenuIcon";
-            this.UserSettings_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
-            this.UserSettings_mainmenuIcon.TabIndex = 34;
-            this.UserSettings_mainmenuIcon.TabStop = false;
-            this.UserSettings_mainmenuIcon.Click += new System.EventHandler(this.UserSettings_mainmenuIcon_Click);
-            // 
-            // UserSettings_exerciselistIcon
-            // 
-            this.UserSettings_exerciselistIcon.Image = global::Fitness4u__Project_.Properties.Resources.Lightbulb1;
-            this.UserSettings_exerciselistIcon.Location = new System.Drawing.Point(23, 617);
-            this.UserSettings_exerciselistIcon.Name = "UserSettings_exerciselistIcon";
-            this.UserSettings_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
-            this.UserSettings_exerciselistIcon.TabIndex = 31;
-            this.UserSettings_exerciselistIcon.TabStop = false;
-            this.UserSettings_exerciselistIcon.Click += new System.EventHandler(this.UserSettings_exerciselistIcon_Click);
-            // 
-            // UserSettings_userIcon
-            // 
-            this.UserSettings_userIcon.Image = global::Fitness4u__Project_.Properties.Resources.userIconBlack;
-            this.UserSettings_userIcon.Location = new System.Drawing.Point(314, 617);
-            this.UserSettings_userIcon.Name = "UserSettings_userIcon";
-            this.UserSettings_userIcon.Size = new System.Drawing.Size(51, 50);
-            this.UserSettings_userIcon.TabIndex = 33;
-            this.UserSettings_userIcon.TabStop = false;
-            this.UserSettings_userIcon.Click += new System.EventHandler(this.UserSettings_userIcon_Click);
-            // 
-            // UserSettings_journalIcon
-            // 
-            this.UserSettings_journalIcon.Image = global::Fitness4u__Project_.Properties.Resources.open_book_icon_free_vector_3_1;
-            this.UserSettings_journalIcon.Location = new System.Drawing.Point(234, 611);
-            this.UserSettings_journalIcon.Name = "UserSettings_journalIcon";
-            this.UserSettings_journalIcon.Size = new System.Drawing.Size(63, 52);
-            this.UserSettings_journalIcon.TabIndex = 32;
-            this.UserSettings_journalIcon.TabStop = false;
-            this.UserSettings_journalIcon.Click += new System.EventHandler(this.UserSettings_journalIcon_Click);
             // 
             // settingsheadingLbl
             // 
@@ -274,20 +203,8 @@
             this.Controls.Add(this.lineseperator2PicBox);
             this.Controls.Add(this.lineseperator1PicBox);
             this.Controls.Add(this.settingsheadingLbl);
-            this.Controls.Add(this.UserSettings_fitsugIcon);
-            this.Controls.Add(this.UserSettings_btmnavbarlinePicbox);
-            this.Controls.Add(this.UserSettings_mainmenuIcon);
-            this.Controls.Add(this.UserSettings_exerciselistIcon);
-            this.Controls.Add(this.UserSettings_userIcon);
-            this.Controls.Add(this.UserSettings_journalIcon);
             this.Name = "User_settings";
             this.Text = "User_settings";
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_fitsugIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_btmnavbarlinePicbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_mainmenuIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_exerciselistIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_userIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UserSettings_journalIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineseperator1PicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lineseperator2PicBox)).EndInit();
             this.ResumeLayout(false);
@@ -296,13 +213,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox UserSettings_btmnavbarlinePicbox;
-        private System.Windows.Forms.PictureBox UserSettings_exerciselistIcon;
-        private System.Windows.Forms.PictureBox UserSettings_journalIcon;
-        private System.Windows.Forms.PictureBox UserSettings_userIcon;
-        private System.Windows.Forms.PictureBox UserSettings_mainmenuIcon;
-        private System.Windows.Forms.PictureBox UserSettings_fitsugIcon;
         private System.Windows.Forms.Label settingsheadingLbl;
         private System.Windows.Forms.PictureBox lineseperator1PicBox;
         private System.Windows.Forms.PictureBox lineseperator2PicBox;

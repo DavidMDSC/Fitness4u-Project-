@@ -16,62 +16,7 @@ namespace Fitness4u__Project_
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtmNavBarLine_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Journallicon_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void currentfitptsLblVar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dayLbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fitsuggLine4Picbox_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void journalText2Lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void yourprogresssatLbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void journalIconPicBox_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fitsuggText1Lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void MainScreenForm_fitsugIcon_Click(object sender, EventArgs e)
         {
             // hide Main_Screen
@@ -83,7 +28,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             FitnessSuggestionPage = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
 
         private void MainScreenForm_mainmenuIcon_Click(object sender, EventArgs e)
@@ -102,7 +47,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             ExerciseList = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
 
         private void MainScreenForm_journalIcon_Click(object sender, EventArgs e)
@@ -116,7 +61,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             FitnessJournal = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
 
         private void MainScreenForm_userIcon_Click(object sender, EventArgs e)
@@ -130,7 +75,7 @@ namespace Fitness4u__Project_
             // dispose of Main_Screen instance
             UserSettings = null;
             // show Main_screen again
-            //this.Show();
+            this.Show();
         }
     }
 }

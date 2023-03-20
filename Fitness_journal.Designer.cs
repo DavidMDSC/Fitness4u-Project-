@@ -46,12 +46,6 @@
             this.journalinnerpagepartingPicbox = new System.Windows.Forms.PictureBox();
             this.journalinnerLine4Picbox = new System.Windows.Forms.PictureBox();
             this.journalinnerLine1Picbox = new System.Windows.Forms.PictureBox();
-            this.FitnessJournal_exerciselistIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessJournal_fitsugIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessJournal_userIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessJournal_journalIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessJournal_mainmenuIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessJournal_btmnavbarlinePicbox = new System.Windows.Forms.PictureBox();
             this.month_targetsachievedLblVar = new System.Windows.Forms.Label();
             this.month_targetsachievedLbl = new System.Windows.Forms.Label();
             this.month_mostrepexercisePicBoxVar = new System.Windows.Forms.PictureBox();
@@ -90,12 +84,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerpagepartingPicbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerLine4Picbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerLine1Picbox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_exerciselistIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_fitsugIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_userIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_journalIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_mainmenuIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_btmnavbarlinePicbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.month_mostrepexercisePicBoxVar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.month_fitsuggactivityPicBoxVar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourjourneygraphXPicbox)).BeginInit();
@@ -133,7 +121,7 @@
             this.week_mostrepexerciseLbl.Location = new System.Drawing.Point(47, 77);
             this.week_mostrepexerciseLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.week_mostrepexerciseLbl.Name = "week_mostrepexerciseLbl";
-            this.week_mostrepexerciseLbl.Size = new System.Drawing.Size(66, 48);
+            this.week_mostrepexerciseLbl.Size = new System.Drawing.Size(65, 48);
             this.week_mostrepexerciseLbl.TabIndex = 29;
             this.week_mostrepexerciseLbl.Text = "Most repeated excercise";
             // 
@@ -144,7 +132,7 @@
             this.week_targetsachievedLbl.Location = new System.Drawing.Point(47, 161);
             this.week_targetsachievedLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.week_targetsachievedLbl.Name = "week_targetsachievedLbl";
-            this.week_targetsachievedLbl.Size = new System.Drawing.Size(64, 32);
+            this.week_targetsachievedLbl.Size = new System.Drawing.Size(63, 32);
             this.week_targetsachievedLbl.TabIndex = 31;
             this.week_targetsachievedLbl.Text = "Targets achieved";
             // 
@@ -274,65 +262,6 @@
             this.journalinnerLine1Picbox.TabIndex = 12;
             this.journalinnerLine1Picbox.TabStop = false;
             // 
-            // FitnessJournal_exerciselistIcon
-            // 
-            this.FitnessJournal_exerciselistIcon.Image = global::Fitness4u__Project_.Properties.Resources.Lightbulb;
-            this.FitnessJournal_exerciselistIcon.Location = new System.Drawing.Point(23, 617);
-            this.FitnessJournal_exerciselistIcon.Name = "FitnessJournal_exerciselistIcon";
-            this.FitnessJournal_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
-            this.FitnessJournal_exerciselistIcon.TabIndex = 11;
-            this.FitnessJournal_exerciselistIcon.TabStop = false;
-            this.FitnessJournal_exerciselistIcon.Click += new System.EventHandler(this.FitnessJournal_exerciselistIcon_Click);
-            // 
-            // FitnessJournal_fitsugIcon
-            // 
-            this.FitnessJournal_fitsugIcon.Image = global::Fitness4u__Project_.Properties.Resources.Jumping_jacks_1_;
-            this.FitnessJournal_fitsugIcon.Location = new System.Drawing.Point(96, 617);
-            this.FitnessJournal_fitsugIcon.Name = "FitnessJournal_fitsugIcon";
-            this.FitnessJournal_fitsugIcon.Size = new System.Drawing.Size(48, 50);
-            this.FitnessJournal_fitsugIcon.TabIndex = 10;
-            this.FitnessJournal_fitsugIcon.TabStop = false;
-            this.FitnessJournal_fitsugIcon.Click += new System.EventHandler(this.FitnessJournal_fitsugIcon_Click);
-            // 
-            // FitnessJournal_userIcon
-            // 
-            this.FitnessJournal_userIcon.Image = global::Fitness4u__Project_.Properties.Resources.Sample_User_Icon_1_;
-            this.FitnessJournal_userIcon.Location = new System.Drawing.Point(314, 617);
-            this.FitnessJournal_userIcon.Name = "FitnessJournal_userIcon";
-            this.FitnessJournal_userIcon.Size = new System.Drawing.Size(51, 50);
-            this.FitnessJournal_userIcon.TabIndex = 9;
-            this.FitnessJournal_userIcon.TabStop = false;
-            this.FitnessJournal_userIcon.Click += new System.EventHandler(this.FitnessJournal_userIcon_Click);
-            // 
-            // FitnessJournal_journalIcon
-            // 
-            this.FitnessJournal_journalIcon.Image = global::Fitness4u__Project_.Properties.Resources.journal_black60x60;
-            this.FitnessJournal_journalIcon.Location = new System.Drawing.Point(234, 611);
-            this.FitnessJournal_journalIcon.Name = "FitnessJournal_journalIcon";
-            this.FitnessJournal_journalIcon.Size = new System.Drawing.Size(63, 52);
-            this.FitnessJournal_journalIcon.TabIndex = 8;
-            this.FitnessJournal_journalIcon.TabStop = false;
-            this.FitnessJournal_journalIcon.Click += new System.EventHandler(this.FitnessJournal_journalIcon_Click);
-            // 
-            // FitnessJournal_mainmenuIcon
-            // 
-            this.FitnessJournal_mainmenuIcon.Image = global::Fitness4u__Project_.Properties.Resources._1407802_200__1_;
-            this.FitnessJournal_mainmenuIcon.Location = new System.Drawing.Point(162, 609);
-            this.FitnessJournal_mainmenuIcon.Name = "FitnessJournal_mainmenuIcon";
-            this.FitnessJournal_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
-            this.FitnessJournal_mainmenuIcon.TabIndex = 7;
-            this.FitnessJournal_mainmenuIcon.TabStop = false;
-            this.FitnessJournal_mainmenuIcon.Click += new System.EventHandler(this.FitnessJournal_mainmenuIcon_Click);
-            // 
-            // FitnessJournal_btmnavbarlinePicbox
-            // 
-            this.FitnessJournal_btmnavbarlinePicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.FitnessJournal_btmnavbarlinePicbox.Location = new System.Drawing.Point(0, 600);
-            this.FitnessJournal_btmnavbarlinePicbox.Name = "FitnessJournal_btmnavbarlinePicbox";
-            this.FitnessJournal_btmnavbarlinePicbox.Size = new System.Drawing.Size(385, 5);
-            this.FitnessJournal_btmnavbarlinePicbox.TabIndex = 6;
-            this.FitnessJournal_btmnavbarlinePicbox.TabStop = false;
-            // 
             // month_targetsachievedLblVar
             // 
             this.month_targetsachievedLblVar.AutoSize = true;
@@ -350,7 +279,7 @@
             this.month_targetsachievedLbl.Location = new System.Drawing.Point(204, 157);
             this.month_targetsachievedLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_targetsachievedLbl.Name = "month_targetsachievedLbl";
-            this.month_targetsachievedLbl.Size = new System.Drawing.Size(64, 32);
+            this.month_targetsachievedLbl.Size = new System.Drawing.Size(63, 32);
             this.month_targetsachievedLbl.TabIndex = 36;
             this.month_targetsachievedLbl.Text = "Targets achieved";
             // 
@@ -369,7 +298,7 @@
             this.month_mostrepexerciseLbl.Location = new System.Drawing.Point(204, 76);
             this.month_mostrepexerciseLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_mostrepexerciseLbl.Name = "month_mostrepexerciseLbl";
-            this.month_mostrepexerciseLbl.Size = new System.Drawing.Size(66, 48);
+            this.month_mostrepexerciseLbl.Size = new System.Drawing.Size(65, 48);
             this.month_mostrepexerciseLbl.TabIndex = 34;
             this.month_mostrepexerciseLbl.Text = "Most repeated excercise";
             // 
@@ -380,7 +309,7 @@
             this.month_fitsuggactivityLbl.Location = new System.Drawing.Point(204, 212);
             this.month_fitsuggactivityLbl.MaximumSize = new System.Drawing.Size(80, 0);
             this.month_fitsuggactivityLbl.Name = "month_fitsuggactivityLbl";
-            this.month_fitsuggactivityLbl.Size = new System.Drawing.Size(77, 48);
+            this.month_fitsuggactivityLbl.Size = new System.Drawing.Size(76, 48);
             this.month_fitsuggactivityLbl.TabIndex = 38;
             this.month_fitsuggactivityLbl.Text = "Fitness suggestion activity";
             // 
@@ -470,7 +399,6 @@
             this.yourjourneygraphXPicbox.Size = new System.Drawing.Size(310, 1);
             this.yourjourneygraphXPicbox.TabIndex = 53;
             this.yourjourneygraphXPicbox.TabStop = false;
-            this.yourjourneygraphXPicbox.Click += new System.EventHandler(this.yourprogressgraphXPicbox_Click);
             // 
             // yourjourneygraphYPicbox
             // 
@@ -625,15 +553,8 @@
             this.Controls.Add(this.journalinnerpagepartingPicbox);
             this.Controls.Add(this.journalinnerLine4Picbox);
             this.Controls.Add(this.journalinnerLine1Picbox);
-            this.Controls.Add(this.FitnessJournal_exerciselistIcon);
-            this.Controls.Add(this.FitnessJournal_fitsugIcon);
-            this.Controls.Add(this.FitnessJournal_userIcon);
-            this.Controls.Add(this.FitnessJournal_journalIcon);
-            this.Controls.Add(this.FitnessJournal_mainmenuIcon);
-            this.Controls.Add(this.FitnessJournal_btmnavbarlinePicbox);
             this.Name = "Fitness_journal";
             this.Text = "Fitness_journal";
-            this.Load += new System.EventHandler(this.Fitness_journal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.journalupdatePicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.week_mostrepexercisePicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerLine3Picbox)).EndInit();
@@ -647,12 +568,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerpagepartingPicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerLine4Picbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.journalinnerLine1Picbox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_exerciselistIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_fitsugIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_userIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_journalIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_mainmenuIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessJournal_btmnavbarlinePicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.month_mostrepexercisePicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.month_fitsuggactivityPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourjourneygraphXPicbox)).EndInit();
@@ -667,13 +582,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox FitnessJournal_exerciselistIcon;
-        private System.Windows.Forms.PictureBox FitnessJournal_fitsugIcon;
-        private System.Windows.Forms.PictureBox FitnessJournal_userIcon;
-        private System.Windows.Forms.PictureBox FitnessJournal_journalIcon;
-        private System.Windows.Forms.PictureBox FitnessJournal_mainmenuIcon;
-        private System.Windows.Forms.PictureBox FitnessJournal_btmnavbarlinePicbox;
         private System.Windows.Forms.PictureBox journalinnerLine4Picbox;
         private System.Windows.Forms.PictureBox journalinnerpagepartingPicbox;
         private System.Windows.Forms.PictureBox journalinnerLine2Picbox;

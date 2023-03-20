@@ -109,7 +109,6 @@ namespace Fitness4u__Project_
             this.dayLbl.Size = new System.Drawing.Size(94, 31);
             this.dayLbl.TabIndex = 6;
             this.dayLbl.Text = "dayLbl";
-            this.dayLbl.Click += new System.EventHandler(this.dayLbl_Click);
             // 
             // dailygoalPbarVar
             // 
@@ -169,7 +168,6 @@ namespace Fitness4u__Project_
             this.currentfitptsLblVar.Size = new System.Drawing.Size(14, 16);
             this.currentfitptsLblVar.TabIndex = 12;
             this.currentfitptsLblVar.Text = "0";
-            this.currentfitptsLblVar.Click += new System.EventHandler(this.currentfitptsLblVar_Click);
             // 
             // alltimefitptsLbl
             // 
@@ -220,7 +218,6 @@ namespace Fitness4u__Project_
             this.fitsuggText1Lbl.Size = new System.Drawing.Size(135, 16);
             this.fitsuggText1Lbl.TabIndex = 29;
             this.fitsuggText1Lbl.Text = "Feeling unmotivated?";
-            this.fitsuggText1Lbl.Click += new System.EventHandler(this.fitsuggText1Lbl_Click);
             // 
             // fitsuggText2Lbl
             // 
@@ -256,7 +253,6 @@ namespace Fitness4u__Project_
             this.journalText2Lbl.Size = new System.Drawing.Size(91, 75);
             this.journalText2Lbl.TabIndex = 33;
             this.journalText2Lbl.Text = "Log it on your Journal to keep track of everything !fitness";
-            this.journalText2Lbl.Click += new System.EventHandler(this.journalText2Lbl_Click);
             // 
             // yourprogressText1Lbl
             // 
@@ -327,7 +323,6 @@ namespace Fitness4u__Project_
             this.yourprogresssatLbl.Size = new System.Drawing.Size(23, 13);
             this.yourprogresssatLbl.TabIndex = 44;
             this.yourprogresssatLbl.Text = "Sat";
-            this.yourprogresssatLbl.Click += new System.EventHandler(this.yourprogresssatLbl_Click);
             // 
             // yourprogresssunLbl
             // 
@@ -374,7 +369,6 @@ namespace Fitness4u__Project_
             this.journalIconPicBox.Size = new System.Drawing.Size(67, 72);
             this.journalIconPicBox.TabIndex = 34;
             this.journalIconPicBox.TabStop = false;
-            this.journalIconPicBox.Click += new System.EventHandler(this.journalIconPicBox_Click);
             // 
             // fitsuggIconPicBox
             // 
@@ -465,7 +459,6 @@ namespace Fitness4u__Project_
             this.fitsuggLine4Picbox.Size = new System.Drawing.Size(2, 120);
             this.fitsuggLine4Picbox.TabIndex = 18;
             this.fitsuggLine4Picbox.TabStop = false;
-            this.fitsuggLine4Picbox.Click += new System.EventHandler(this.fitsuggLine4Picbox_Click);
             // 
             // fitsuggLine3Picbox
             // 
@@ -552,7 +545,6 @@ namespace Fitness4u__Project_
             this.MainScreenForm_btmnavbarlinePicbox.Size = new System.Drawing.Size(385, 5);
             this.MainScreenForm_btmnavbarlinePicbox.TabIndex = 0;
             this.MainScreenForm_btmnavbarlinePicbox.TabStop = false;
-            this.MainScreenForm_btmnavbarlinePicbox.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Main_Screen
             // 
@@ -608,7 +600,6 @@ namespace Fitness4u__Project_
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Main_Screen";
             this.Text = "Main_Screen";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressgraphXPicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressgraphYPicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yourprogressIconPicBox)).EndInit();

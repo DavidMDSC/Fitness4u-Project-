@@ -50,12 +50,6 @@
             this.exercise1videoPicBoxVar = new System.Windows.Forms.PictureBox();
             this.exercise1checkPicBoxVar = new System.Windows.Forms.PictureBox();
             this.exercise1imgPicBoxVar = new System.Windows.Forms.PictureBox();
-            this.FitnessSuggestionPage_fitsugIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessSuggestionPage_mainmenuIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessSuggestionPage_userIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessSuggestionPage_journalIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessSuggestionPage_exerciselistIcon = new System.Windows.Forms.PictureBox();
-            this.FitnessSuggestionPage_btmnavbarlinePicbox = new System.Windows.Forms.PictureBox();
             this.historyIconPicBox = new System.Windows.Forms.PictureBox();
             this.furtherqsIconPicBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.exercise5videoPicBoxVar)).BeginInit();
@@ -73,12 +67,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.exercise1videoPicBoxVar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise1checkPicBoxVar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise1imgPicBoxVar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_fitsugIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_mainmenuIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_userIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_journalIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_exerciselistIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_btmnavbarlinePicbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.historyIconPicBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.furtherqsIconPicBox)).BeginInit();
             this.SuspendLayout();
@@ -204,7 +192,6 @@
             this.exercise4imgPicBoxVar.Size = new System.Drawing.Size(57, 50);
             this.exercise4imgPicBoxVar.TabIndex = 23;
             this.exercise4imgPicBoxVar.TabStop = false;
-            this.exercise4imgPicBoxVar.Click += new System.EventHandler(this.exercise4imgPicBoxVar_Click);
             // 
             // exercise3videoPicBoxVar
             // 
@@ -284,65 +271,6 @@
             this.exercise1imgPicBoxVar.TabIndex = 11;
             this.exercise1imgPicBoxVar.TabStop = false;
             // 
-            // FitnessSuggestionPage_fitsugIcon
-            // 
-            this.FitnessSuggestionPage_fitsugIcon.Image = global::Fitness4u__Project_.Properties.Resources.Jumping_jacks_black1;
-            this.FitnessSuggestionPage_fitsugIcon.Location = new System.Drawing.Point(96, 617);
-            this.FitnessSuggestionPage_fitsugIcon.Name = "FitnessSuggestionPage_fitsugIcon";
-            this.FitnessSuggestionPage_fitsugIcon.Size = new System.Drawing.Size(48, 50);
-            this.FitnessSuggestionPage_fitsugIcon.TabIndex = 8;
-            this.FitnessSuggestionPage_fitsugIcon.TabStop = false;
-            this.FitnessSuggestionPage_fitsugIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_fitsugIcon_Click);
-            // 
-            // FitnessSuggestionPage_mainmenuIcon
-            // 
-            this.FitnessSuggestionPage_mainmenuIcon.Image = global::Fitness4u__Project_.Properties.Resources._1407802_200__1_;
-            this.FitnessSuggestionPage_mainmenuIcon.Location = new System.Drawing.Point(162, 609);
-            this.FitnessSuggestionPage_mainmenuIcon.Name = "FitnessSuggestionPage_mainmenuIcon";
-            this.FitnessSuggestionPage_mainmenuIcon.Size = new System.Drawing.Size(60, 60);
-            this.FitnessSuggestionPage_mainmenuIcon.TabIndex = 7;
-            this.FitnessSuggestionPage_mainmenuIcon.TabStop = false;
-            this.FitnessSuggestionPage_mainmenuIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_mainmenuIcon_Click);
-            // 
-            // FitnessSuggestionPage_userIcon
-            // 
-            this.FitnessSuggestionPage_userIcon.Image = global::Fitness4u__Project_.Properties.Resources.Sample_User_Icon_1_;
-            this.FitnessSuggestionPage_userIcon.Location = new System.Drawing.Point(314, 617);
-            this.FitnessSuggestionPage_userIcon.Name = "FitnessSuggestionPage_userIcon";
-            this.FitnessSuggestionPage_userIcon.Size = new System.Drawing.Size(51, 50);
-            this.FitnessSuggestionPage_userIcon.TabIndex = 6;
-            this.FitnessSuggestionPage_userIcon.TabStop = false;
-            this.FitnessSuggestionPage_userIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_userIcon_Click);
-            // 
-            // FitnessSuggestionPage_journalIcon
-            // 
-            this.FitnessSuggestionPage_journalIcon.Image = global::Fitness4u__Project_.Properties.Resources.open_book_icon_free_vector_3_1;
-            this.FitnessSuggestionPage_journalIcon.Location = new System.Drawing.Point(234, 611);
-            this.FitnessSuggestionPage_journalIcon.Name = "FitnessSuggestionPage_journalIcon";
-            this.FitnessSuggestionPage_journalIcon.Size = new System.Drawing.Size(63, 52);
-            this.FitnessSuggestionPage_journalIcon.TabIndex = 5;
-            this.FitnessSuggestionPage_journalIcon.TabStop = false;
-            this.FitnessSuggestionPage_journalIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_journalIcon_Click);
-            // 
-            // FitnessSuggestionPage_exerciselistIcon
-            // 
-            this.FitnessSuggestionPage_exerciselistIcon.Image = global::Fitness4u__Project_.Properties.Resources.Lightbulb1;
-            this.FitnessSuggestionPage_exerciselistIcon.Location = new System.Drawing.Point(23, 617);
-            this.FitnessSuggestionPage_exerciselistIcon.Name = "FitnessSuggestionPage_exerciselistIcon";
-            this.FitnessSuggestionPage_exerciselistIcon.Size = new System.Drawing.Size(49, 50);
-            this.FitnessSuggestionPage_exerciselistIcon.TabIndex = 4;
-            this.FitnessSuggestionPage_exerciselistIcon.TabStop = false;
-            this.FitnessSuggestionPage_exerciselistIcon.Click += new System.EventHandler(this.FitnessSuggestionPage_exerciselistIcon_Click);
-            // 
-            // FitnessSuggestionPage_btmnavbarlinePicbox
-            // 
-            this.FitnessSuggestionPage_btmnavbarlinePicbox.Image = global::Fitness4u__Project_.Properties.Resources._2560x1440_black_solid_color_background;
-            this.FitnessSuggestionPage_btmnavbarlinePicbox.Location = new System.Drawing.Point(0, 600);
-            this.FitnessSuggestionPage_btmnavbarlinePicbox.Name = "FitnessSuggestionPage_btmnavbarlinePicbox";
-            this.FitnessSuggestionPage_btmnavbarlinePicbox.Size = new System.Drawing.Size(385, 5);
-            this.FitnessSuggestionPage_btmnavbarlinePicbox.TabIndex = 3;
-            this.FitnessSuggestionPage_btmnavbarlinePicbox.TabStop = false;
-            // 
             // historyIconPicBox
             // 
             this.historyIconPicBox.Image = global::Fitness4u__Project_.Properties.Resources._history_89998;
@@ -387,18 +315,11 @@
             this.Controls.Add(this.exercise1imgPicBoxVar);
             this.Controls.Add(this.exercise1LblVar);
             this.Controls.Add(this.todayexercisesLbl);
-            this.Controls.Add(this.FitnessSuggestionPage_fitsugIcon);
-            this.Controls.Add(this.FitnessSuggestionPage_mainmenuIcon);
-            this.Controls.Add(this.FitnessSuggestionPage_userIcon);
-            this.Controls.Add(this.FitnessSuggestionPage_journalIcon);
-            this.Controls.Add(this.FitnessSuggestionPage_exerciselistIcon);
-            this.Controls.Add(this.FitnessSuggestionPage_btmnavbarlinePicbox);
             this.Controls.Add(this.historyIconPicBox);
             this.Controls.Add(this.furtherqsIconPicBox);
             this.Controls.Add(this.fitness4uLbl);
             this.Name = "Fitness_Suggestion_Page";
             this.Text = "Fitness_Suggestion_Page";
-            this.Load += new System.EventHandler(this.Fitness_Suggestion_Page_Load);
             ((System.ComponentModel.ISupportInitialize)(this.exercise5videoPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise5checkPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise5imgPicBoxVar)).EndInit();
@@ -414,12 +335,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.exercise1videoPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise1checkPicBoxVar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exercise1imgPicBoxVar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_fitsugIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_mainmenuIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_userIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_journalIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_exerciselistIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FitnessSuggestionPage_btmnavbarlinePicbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.historyIconPicBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.furtherqsIconPicBox)).EndInit();
             this.ResumeLayout(false);
@@ -432,12 +347,6 @@
         private System.Windows.Forms.Label fitness4uLbl;
         private System.Windows.Forms.PictureBox furtherqsIconPicBox;
         private System.Windows.Forms.PictureBox historyIconPicBox;
-        private System.Windows.Forms.PictureBox FitnessSuggestionPage_btmnavbarlinePicbox;
-        private System.Windows.Forms.PictureBox FitnessSuggestionPage_exerciselistIcon;
-        private System.Windows.Forms.PictureBox FitnessSuggestionPage_journalIcon;
-        private System.Windows.Forms.PictureBox FitnessSuggestionPage_userIcon;
-        private System.Windows.Forms.PictureBox FitnessSuggestionPage_mainmenuIcon;
-        private System.Windows.Forms.PictureBox FitnessSuggestionPage_fitsugIcon;
         private System.Windows.Forms.Label todayexercisesLbl;
         private System.Windows.Forms.Label exercise1LblVar;
         private System.Windows.Forms.PictureBox exercise1imgPicBoxVar;
