@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Create_Account_Log_In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Account_Log_In.Designer.cs">
+      <DependentUpon>Create_Account_Log_In.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercise_list.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="User_settings.Designer.cs">
       <DependentUpon>User_settings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Create_Account_Log_In.resx">
+      <DependentUpon>Create_Account_Log_In.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercise_list.resx">
       <DependentUpon>Exercise_list.cs</DependentUpon>
     </EmbeddedResource>
