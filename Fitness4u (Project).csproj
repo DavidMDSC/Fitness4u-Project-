@@ -58,6 +58,12 @@
     <Compile Include="Exercise_list.Designer.cs">
       <DependentUpon>Exercise_list.cs</DependentUpon>
     </Compile>
+    <Compile Include="First_steps_questionaire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="First_steps_questionaire.Designer.cs">
+      <DependentUpon>First_steps_questionaire.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fitness_Suggestion_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercise_list.resx">
       <DependentUpon>Exercise_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="First_steps_questionaire.resx">
+      <DependentUpon>First_steps_questionaire.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fitness_Suggestion_Form.resx">
       <DependentUpon>Fitness_Suggestion_Form.cs</DependentUpon>
