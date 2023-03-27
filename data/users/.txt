@@ -1,0 +1,10 @@
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a4
+q3answer: a2
+q4answer: a1

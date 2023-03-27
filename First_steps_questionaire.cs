@@ -8,16 +8,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Fitness4u__Project_
 {
     public partial class First_steps_questionaire : Form
     {
+        public string username;
+
         public First_steps_questionaire()
         {
             InitializeComponent();
+            // username value grabbed from Create_account_log_in Form
+            username = Create_Account_Log_In.username;
         }
-        
+
         ///////////////
         // Variables //
         ///////////////
@@ -63,8 +68,6 @@ namespace Fitness4u__Project_
         {
             q1rbtnvalue = "a4";
         }
-
-
 
         ////////////////////////
         // Question 2 answers //
@@ -146,6 +149,7 @@ namespace Fitness4u__Project_
 
         private void submitBtn_Click(object sender, EventArgs e)
         {
+
             /////////////////////////////////
             // Question 1 Switch statement //
             /////////////////////////////////
@@ -252,6 +256,34 @@ namespace Fitness4u__Project_
                 case "a4": // Once a week
                     exerciseRegularity = 1;
                     break;
+            }
+            
+            ////////////////////////
+            // Storing the values //
+            ////////////////////////
+            
+
+            // filepath = the location of the users .txt file
+            string filepath = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
+            using (StreamWriter firststepsdata = new StreamWriter(filepath))
+
+            using (firststepsdata)
+            {
+
+                // creating the heading in the .txt to put all first steps answers
+                // blank writelines used to create paragraphs in .txt file
+                firststepsdata.WriteLine("");
+                firststepsdata.WriteLine("");
+                firststepsdata.WriteLine("/////////////////////////");
+                firststepsdata.WriteLine("// First steps answers //");
+                firststepsdata.WriteLine("/////////////////////////");
+                firststepsdata.WriteLine("");
+
+                // question answers stored in .txt
+                firststepsdata.WriteLine("q1answer: " + q1rbtnvalue);
+                firststepsdata.WriteLine("q2answer: " + q2rbtnvalue);
+                firststepsdata.WriteLine("q3answer: " + q3rbtnvalue);
+                firststepsdata.WriteLine("q4answer: " + q4rbtnvalue);
             }
         }
     }

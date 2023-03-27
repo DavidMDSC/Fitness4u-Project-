@@ -16,7 +16,7 @@ namespace Fitness4u__Project_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new First_steps_questionaire());
+            Application.Run(new Create_Account_Log_In());
         }
     }
 }

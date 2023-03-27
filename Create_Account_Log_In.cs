@@ -14,6 +14,12 @@ namespace Fitness4u__Project_
 {
     public partial class Create_Account_Log_In : Form
     {
+        // stores the users username
+        public static string username;
+        // boolean value used to represent if the user
+        // has accessed the fitness_suggestion_page Form before
+        public static bool firsttime;
+
         public Create_Account_Log_In()
         {
             InitializeComponent();
@@ -31,9 +37,13 @@ namespace Fitness4u__Project_
                 {
                     createaccount.WriteLine("Username: " + createaccountUsernameTxt.Text); // will save the Username on a new line
                     createaccount.WriteLine("Password: " + createaccountPasswordTxt.Text); // will save the Password on a new line
+                    createaccount.WriteLine("firsttime: true"); // true as user is yet to access fitness_suggestion_page
                 }
 
                 MessageBox.Show("Account created successfully!","Operation successful!"); // Pop-up box will show up with this message if the operation is successful
+
+                // true as user is yet to access fitness_suggestion_page
+                firsttime = true;
 
             }
             catch (Exception)
@@ -46,16 +56,18 @@ namespace Fitness4u__Project_
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            string filePath = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + loginUsernameTxt.Text + ".txt";
+            string filepath = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + loginUsernameTxt.Text + ".txt";
+            // Stores username
+            username = loginUsernameTxt.Text;
             try
             {
-                using (StreamReader login = new StreamReader(filePath))
+                using (StreamReader login = new StreamReader(filepath))
                 {
                     string line = login.ReadLine(); // used to set the while loop
                     while (line != null) // will loop until it has a password string
                     {
                         string[] lineArr = new string[0]; // the lines in the .txt will act as an array
-                        lineArr = line.Split(' '); // will only look read the text after the space
+                        lineArr = line.Split(' '); // will only read the text after the space
                         if (lineArr[1] == loginPasswordTxt.Text) // is comparing the stored password to the password the user has entered
                         {
                             // Displays this message if the user has typed in the correct username and password!
@@ -74,7 +86,6 @@ namespace Fitness4u__Project_
                             this.Dispose();
 
                             // ACTUAL LOGIN ENDS HERE
-
                         }
                         else
                         {
@@ -93,5 +104,3 @@ namespace Fitness4u__Project_
         }
     }
 }
-
-
