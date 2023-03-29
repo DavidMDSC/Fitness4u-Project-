@@ -72,42 +72,79 @@ namespace Fitness4u__Project_
 
         private void MainScreenForm_fitsugIcon_Click(object sender, EventArgs e)
         {
-            string filepath1 = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
-            using (StreamReader firsttimecheck = new StreamReader(filepath1))
-            {
-                string line = firsttimecheck.ReadLine(); // used to set the while loop
-                while (line != null) // will loop until it has reached the value it is looking for
-                {
-                    string[] lineArr = new string[0]; // the lines in the .txt will act as an array
-                    lineArr = line.Split(' '); // will only read the text after the space
-                    if (lineArr[2] == "true") // is checking to see if the user has accessed the fitness_suggestion_page Form or not before
-                    {
-                        // hide Main_Screen
-                        this.Hide();
-                        // create an instance of first_steps_questionaire
-                        First_steps_questionaire firststepsquestionaire = new First_steps_questionaire();
-                        // show first_steps_questionaire
-                        firststepsquestionaire.ShowDialog(); // will halt/freeze the execution of the click event
-                        // dispose of Main_Screen instance
-                        firststepsquestionaire = null;                    
+            string filepath = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
+            int linenumber = 3; // "firsttime: " will be on the 3rd line of the .txt
+            string line = File.ReadLines(filepath).Skip(linenumber - 1).FirstOrDefault(); // set to read the 3rd line from the .txt
 
-                    }
-                    else
-                    {
-                        // hide Main_Screen
-                        this.Hide();
-                        // create an instance of Fitness_Suggestion_Page
-                        Fitness_Suggestion_Page FitnessSuggestionPage = new Fitness_Suggestion_Page();
-                        // show Fitness_Suggestion_Page
-                        FitnessSuggestionPage.ShowDialog(); // will halt/freeze the execution of the click event.
-                        // dispose of Main_Screen instance
-                        FitnessSuggestionPage = null;
-                        // show Main_screen again
-                        this.Show();
-                    }
-                }
+            // Message box for testing
+            MessageBox.Show(line);
+
+            if (line == "firsttime: true")
+            {
+                //hide Main_Screen
+                this.Hide();
+                // create an instance of first_steps_questionaire
+                First_steps_questionaire firststepsquestionaire = new First_steps_questionaire();
+                // show first_steps_questionaire
+                firststepsquestionaire.ShowDialog(); // will halt/freeze the execution of the click event
+                // dispose of Main_Screen instance
+                firststepsquestionaire = null;
+
             }
-        }
+            else
+            {
+                // hide Main_Screen
+                this.Hide();
+                // create an instance of Fitness_Suggestion_Page
+                Fitness_Suggestion_Page FitnessSuggestionPage = new Fitness_Suggestion_Page();
+                // show Fitness_Suggestion_Page
+                FitnessSuggestionPage.ShowDialog(); // will halt/freeze the execution of the click event.
+                // dispose of Main_Screen instance
+                FitnessSuggestionPage = null;
+                //show Main_screen again
+                this.Show();
+            }
+
+
+
+            // BROKEN CODE BELOW - RETURNING LOGIC ERROR.
+
+            // using (StreamReader firsttimecheck = new StreamReader(filepath1))
+            //{
+            //string line = firsttimecheck.ReadLine(); // used to set the while loop
+            //while (line != null) // will loop until it has reached the value it is looking for
+            //{
+            //string[] lineArr = new string[0]; // the lines in the .txt will act as an array
+            //lineArr = line.Split(' '); // will only read the text after the space
+            //if (lineArr[2] == "true") // is checking to see if the user has accessed the fitness_suggestion_page Form or not before
+            //{
+            // hide Main_Screen
+            //this.Hide();
+            // create an instance of first_steps_questionaire
+            //First_steps_questionaire firststepsquestionaire = new First_steps_questionaire();
+            // show first_steps_questionaire
+            //firststepsquestionaire.ShowDialog(); // will halt/freeze the execution of the click event
+            // dispose of Main_Screen instance
+            //firststepsquestionaire = null;                    
+
+            //}
+            //else
+            //{
+            // hide Main_Screen
+            //this.Hide();
+            // create an instance of Fitness_Suggestion_Page
+            //Fitness_Suggestion_Page FitnessSuggestionPage = new Fitness_Suggestion_Page();
+            // show Fitness_Suggestion_Page
+            //FitnessSuggestionPage.ShowDialog(); // will halt/freeze the execution of the click event.
+            // dispose of Main_Screen instance
+            //FitnessSuggestionPage = null;
+            // show Main_screen again
+            //this.Show();
+            //}
+            //}
+            //}
+
+        }       
     }
 }
    

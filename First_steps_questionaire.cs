@@ -257,34 +257,77 @@ namespace Fitness4u__Project_
                     exerciseRegularity = 1;
                     break;
             }
-            
+
             ////////////////////////
             // Storing the values //
             ////////////////////////
-            
 
-            // filepath = the location of the users .txt file
-            string filepath = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
-            using (StreamWriter firststepsdata = new StreamWriter(filepath))
+            //try
+            //{
+                //string filepath1 = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
+                //string[] firststepsdata =
+                //{
+                //"",
+                //"",
+                //"/////////////////////////",
+                //"// First steps answers //",
+                //"/////////////////////////",
+                //"",
+                //"q1answer: " + q1rbtnvalue,
+                //"q2answer: " + q2rbtnvalue,
+                //"q3answer: " + q3rbtnvalue,
+                //"q4answer: " + q4rbtnvalue,
+                //};
+                //File.WriteAllLines(filepath1, firststepsdata);
 
-            using (firststepsdata)
-            {
+                // Pop-up box will show displaying the message below
+                //MessageBox.Show("Data stored successfully!", "Success!");
+            //}
+            //catch
+            //{
+            //    MessageBox.Show("Error has occured", "Error! - FTQ");       
+            //}
 
-                // creating the heading in the .txt to put all first steps answers
-                // blank writelines used to create paragraphs in .txt file
-                firststepsdata.WriteLine("");
-                firststepsdata.WriteLine("");
+
+
+                // filepath = the location of the users .txt file
+                string filepath1 = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
+                MessageBox.Show(filepath1);
+                try
+                {
+                //StreamWriter firststepsdata = new StreamWriter(filepath1);
+                using (TextWriter firststepsdata = File.CreateText(filepath1))
+                {
+                firststepsdata.WriteLine(""); // creating the heading in the .txt to put all first steps answers
+                firststepsdata.WriteLine(""); // blank writelines used to create paragraphs in .txt file
                 firststepsdata.WriteLine("/////////////////////////");
                 firststepsdata.WriteLine("// First steps answers //");
                 firststepsdata.WriteLine("/////////////////////////");
                 firststepsdata.WriteLine("");
-
-                // question answers stored in .txt
-                firststepsdata.WriteLine("q1answer: " + q1rbtnvalue);
+                firststepsdata.WriteLine("q1answer: " + q1rbtnvalue); // question answers stored in .txt
                 firststepsdata.WriteLine("q2answer: " + q2rbtnvalue);
                 firststepsdata.WriteLine("q3answer: " + q3rbtnvalue);
                 firststepsdata.WriteLine("q4answer: " + q4rbtnvalue);
+                }
+
+                // Pop-up box will show displaying the message below
+                MessageBox.Show("Data stored successfully!", "Success!");
+                }
+                catch
+                {
+                    MessageBox.Show("Error has occured", "Error! - FTQ");
+                }
+
+                //MessageBox.Show("End reached");
+
+
+                //editing the 3rd line in the users .txt file from "firsttime: true" to "firsttime: false"
+                //int line_to_edit = 3; // 3rd line is the line we want to edit
+                //string[] arrLine = File.ReadAllLines(filepath); 
+                //arrLine[line_to_edit - 1] = "firsttime: false"; // changes 3rd line to "firsttime: false"
+
+                // MessageBox for testing to see if line was replaced
+                //MessageBox.Show(arrLine[line_to_edit - 1]);
             }
-        }
     }
 }

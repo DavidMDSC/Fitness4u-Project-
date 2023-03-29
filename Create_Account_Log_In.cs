@@ -40,6 +40,8 @@ namespace Fitness4u__Project_
                     createaccount.WriteLine("firsttime: true"); // true as user is yet to access fitness_suggestion_page
                 }
 
+                createaccount.Close();
+
                 MessageBox.Show("Account created successfully!","Operation successful!"); // Pop-up box will show up with this message if the operation is successful
 
                 // true as user is yet to access fitness_suggestion_page
@@ -58,10 +60,11 @@ namespace Fitness4u__Project_
         {
             string filepath = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + loginUsernameTxt.Text + ".txt";
             // Stores username
-            username = loginUsernameTxt.Text;
             try
             {
-                using (StreamReader login = new StreamReader(filepath))
+                username = loginUsernameTxt.Text;
+                StreamReader login = new StreamReader(filepath);
+                using (login)
                 {
                     string line = login.ReadLine(); // used to set the while loop
                     while (line != null) // will loop until it has a password string
@@ -95,8 +98,9 @@ namespace Fitness4u__Project_
                         line = login.ReadLine();
                     }
                 }
+                login.Close();
             }
-            catch (Exception)
+            catch(Exception)
             {
                 // Displays this message if the username is incorrect
                 MessageBox.Show("Incorrect username", "Error!");
