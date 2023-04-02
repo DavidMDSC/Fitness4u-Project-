@@ -42,7 +42,7 @@ namespace Fitness4u__Project_
 
                 createaccount.Close();
 
-                MessageBox.Show("Account created successfully!","Operation successful!"); // Pop-up box will show up with this message if the operation is successful
+                MessageBox.Show("Account created successfully!", "Operation successful!"); // Pop-up box will show up with this message if the operation is successful
 
                 // true as user is yet to access fitness_suggestion_page
                 firsttime = true;
@@ -63,44 +63,76 @@ namespace Fitness4u__Project_
             try
             {
                 username = loginUsernameTxt.Text;
-                StreamReader login = new StreamReader(filepath);
-                using (login)
+                int linenumber = 2;
+                string line = File.ReadLines(filepath).Skip(linenumber - 1).FirstOrDefault();
+                MessageBox.Show(line); // test
+                MessageBox.Show("Password: " + loginPasswordTxt.Text); // test 2
+                if (line == "Password: " + loginPasswordTxt.Text)
                 {
-                    string line = login.ReadLine(); // used to set the while loop
-                    while (line != null) // will loop until it has a password string
-                    {
-                        string[] lineArr = new string[0]; // the lines in the .txt will act as an array
-                        lineArr = line.Split(' '); // will only read the text after the space
-                        if (lineArr[1] == loginPasswordTxt.Text) // is comparing the stored password to the password the user has entered
-                        {
-                            // Displays this message if the user has typed in the correct username and password!
-                            MessageBox.Show("Login successful!", "Operation successful!");
-                            
-                            //ACTUAL LOG IN OCCURS HERE
 
-                            // hide Create_Account_Log_In Form
-                            this.Hide();
-                            // create an instance of Main_Screen
-                            Main_Screen MainScreen = new Main_Screen();
-                            // show Main_Screen
-                            MainScreen.ShowDialog(); // will halt/freeze the execution of the click event.
-                            // dispose of Create_Account_Log_In instance
-                            MainScreen = null;
-                            this.Dispose();
+                    // Displays this message if the user has typed in the correct username and password!
+                    MessageBox.Show("Login successful!", "Operation successful!");
 
-                            // ACTUAL LOGIN ENDS HERE
-                        }
-                        else
-                        {
-                            // Displays this message if the password is incorrect
-                            MessageBox.Show("Incorrect password!", "Error!");
-                        }
-                        line = login.ReadLine();
-                    }
+                    //ACTUAL LOG IN OCCURS HERE
+
+                    // hide Create_Account_Log_In Form
+                    this.Hide();
+                    // create an instance of Main_Screen
+                    Main_Screen MainScreen = new Main_Screen();
+                    // show Main_Screen
+                    MainScreen.ShowDialog(); // will halt/freeze the execution of the click event.
+                    // dispose of Create_Account_Log_In instance
+                    MainScreen = null;
+                    this.Dispose();
+
+                    // ACTUAL LOGIN ENDS HERE
                 }
-                login.Close();
+                else
+                {
+                    // Displays this message if the password is incorrect
+                    MessageBox.Show("Incorrect password!", "Error!");
+                }
             }
-            catch(Exception)
+
+
+            //StreamReader login = new StreamReader(filepath);
+            //using (login)
+            //{
+            //string line = login.ReadLine(); // used to set the while loop
+            //while (line != null) // will loop until it has a password string
+            //{
+            //    string[] lineArr = new string[0]; // the lines in the .txt will act as an array
+            //    lineArr = line.Split(' '); // will only read the text after the space
+            //    if (lineArr[1] == loginPasswordTxt.Text) // is comparing the stored password to the password the user has entered
+            //    {
+            //        // Displays this message if the user has typed in the correct username and password!
+            //        MessageBox.Show("Login successful!", "Operation successful!");
+            //        
+            //        //ACTUAL LOG IN OCCURS HERE
+            //
+            //        // hide Create_Account_Log_In Form
+            //        this.Hide();
+            //        // create an instance of Main_Screen
+            //        Main_Screen MainScreen = new Main_Screen();
+            //        // show Main_Screen
+            //        MainScreen.ShowDialog(); // will halt/freeze the execution of the click event.
+            //        // dispose of Create_Account_Log_In instance
+            //        MainScreen = null;
+            //        this.Dispose();
+            //
+            //        // ACTUAL LOGIN ENDS HERE
+            //    }
+            //    else
+            //    {
+            //        // Displays this message if the password is incorrect
+            //        MessageBox.Show("Incorrect password!", "Error!");
+            //    }
+            //    line = login.ReadLine();
+            //}
+            //}
+            //login.Close();
+            //}
+            catch (Exception)
             {
                 // Displays this message if the username is incorrect
                 MessageBox.Show("Incorrect username", "Error!");

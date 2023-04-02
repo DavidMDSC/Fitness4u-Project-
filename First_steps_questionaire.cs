@@ -147,6 +147,9 @@ namespace Fitness4u__Project_
             q4rbtnvalue = "a4";
         }
 
+        /////////////////////////////////
+        // submitBtn event occurs here //
+        /////////////////////////////////
         private void submitBtn_Click(object sender, EventArgs e)
         {
 
@@ -290,44 +293,41 @@ namespace Fitness4u__Project_
 
 
 
-                // filepath = the location of the users .txt file
-                string filepath1 = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
-                MessageBox.Show(filepath1);
-                try
-                {
+            // filepath = the location of the users .txt file
+            string filepath1 = @"C:\Users\David Correia\source\repos\Fitness4u-Project-1\data\" + "\\users\\" + username + ".txt";
+            MessageBox.Show(filepath1); // to test its working - remove when testing is complete
+            try
+            {
                 //StreamWriter firststepsdata = new StreamWriter(filepath1);
-                using (TextWriter firststepsdata = File.CreateText(filepath1))
+                using (StreamWriter firststepsdata = new StreamWriter(filepath1, true)) // needed it to be true in order to write to text file
                 {
-                firststepsdata.WriteLine(""); // creating the heading in the .txt to put all first steps answers
-                firststepsdata.WriteLine(""); // blank writelines used to create paragraphs in .txt file
-                firststepsdata.WriteLine("/////////////////////////");
-                firststepsdata.WriteLine("// First steps answers //");
-                firststepsdata.WriteLine("/////////////////////////");
-                firststepsdata.WriteLine("");
-                firststepsdata.WriteLine("q1answer: " + q1rbtnvalue); // question answers stored in .txt
-                firststepsdata.WriteLine("q2answer: " + q2rbtnvalue);
-                firststepsdata.WriteLine("q3answer: " + q3rbtnvalue);
-                firststepsdata.WriteLine("q4answer: " + q4rbtnvalue);
+                    firststepsdata.WriteLine(""); // creating the heading in the .txt to put all first steps answers
+                    firststepsdata.WriteLine(""); // blank writelines used to create paragraphs in .txt file
+                    firststepsdata.WriteLine("/////////////////////////");
+                    firststepsdata.WriteLine("// First steps answers //");
+                    firststepsdata.WriteLine("/////////////////////////");
+                    firststepsdata.WriteLine("");
+                    firststepsdata.WriteLine("q1answer: " + q1rbtnvalue); // question answers stored in .txt
+                    firststepsdata.WriteLine("q2answer: " + q2rbtnvalue);
+                    firststepsdata.WriteLine("q3answer: " + q3rbtnvalue);
+                    firststepsdata.WriteLine("q4answer: " + q4rbtnvalue);
                 }
 
                 // Pop-up box will show displaying the message below
                 MessageBox.Show("Data stored successfully!", "Success!");
-                }
-                catch
-                {
-                    MessageBox.Show("Error has occured", "Error! - FTQ");
-                }
-
-                //MessageBox.Show("End reached");
-
+            }
+            catch
+            {
+                MessageBox.Show("Error has occured", "Error! - FSQ");
+            }
 
                 //editing the 3rd line in the users .txt file from "firsttime: true" to "firsttime: false"
-                //int line_to_edit = 3; // 3rd line is the line we want to edit
-                //string[] arrLine = File.ReadAllLines(filepath); 
-                //arrLine[line_to_edit - 1] = "firsttime: false"; // changes 3rd line to "firsttime: false"
+                int line_to_edit = 3; // 3rd line is the line we want to edit
+                string[] arrLine = File.ReadAllLines(filepath1); 
+                arrLine[line_to_edit - 1] = "firsttime: false"; // changes 3rd line to "firsttime: false"
 
                 // MessageBox for testing to see if line was replaced
-                //MessageBox.Show(arrLine[line_to_edit - 1]);
-            }
+                MessageBox.Show(arrLine[line_to_edit - 1]);
+        }
     }
 }
