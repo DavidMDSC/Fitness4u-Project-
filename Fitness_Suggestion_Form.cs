@@ -15,6 +15,24 @@ namespace Fitness4u__Project_
         public Fitness_Suggestion_Page()
         {
             InitializeComponent();
+
         }
+        /////////////////////////////
+        // All potential exercises //
+        /////////////////////////////
+
+        // all values range from 1-10
+
+        // Exercise: pushups
+        int pushupCardio = 2;
+        int pushupMuscle = 6;
+        int pushupStrength = 7;
+
+        // Exercise: step-ups
+        int stepupsCardio = 5;
+        int stepupsMuscle = 2;
+        int stepupsStrength = 1;
+
+        // Exercise: 
     }
 }

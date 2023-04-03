@@ -328,6 +328,15 @@ namespace Fitness4u__Project_
 
                 // MessageBox for testing to see if line was replaced
                 MessageBox.Show(arrLine[line_to_edit - 1]);
+
+            //////////////////////////////////
+            // Fitness suggestion algorithm //
+            //////////////////////////////////
+
+            // ensures the user doesnt break the algorithm by closing the Form halfway through
+            MessageBox.Show("Exercises being generated - Don't close the Form", "DONT CLOSE!");
+
+            
         }
     }
 }
