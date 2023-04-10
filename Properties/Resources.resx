@@ -148,14 +148,17 @@
   <data name="BtmNavBarLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BtmNavBarLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lightbulb_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lightbulb_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="userIconBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userIconBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="730325-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\730325-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sample_User_Icon(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sample_User_Icon(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="journal_black60x60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\journal_black60x60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="open-book-icon-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open-book-icon-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,16 +214,13 @@
   <data name="-history_89998" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\-history_89998.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="journal_black60x60" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\journal_black60x60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lightbulb_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lightbulb_dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="open-book-icon-free-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open-book-icon-free-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="betterblackboxoutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\betterblackboxoutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="userIconBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\userIconBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

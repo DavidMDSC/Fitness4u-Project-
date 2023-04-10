@@ -1,0 +1,19 @@
+Username: test6
+Password: test6
+firsttime: false
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a4
+q3answer: a4
+q4answer: a1
+Exercise 1: pushups
+Exercise 2: kickbacks
+Exercise 3: climbers
+Exercise 4: squat-jumps
+Exercise 5: plank
+

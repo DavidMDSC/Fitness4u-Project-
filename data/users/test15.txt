@@ -1,0 +1,19 @@
+Username: test15
+Password: test15
+firsttime: false
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a1
+q3answer: a2
+q4answer: a1
+Exercise 1: bicycle
+Exercise 2: squat-pulses
+Exercise 3: pullups
+Exercise 4: step-ups
+Exercise 5: wallsit
+

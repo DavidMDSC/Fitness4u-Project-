@@ -1,0 +1,19 @@
+Username: test9
+Password: test9
+firsttime: false
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a4
+q3answer: a4
+q4answer: a1
+Exercise 1: wallsit
+Exercise 2: squat-pulses
+Exercise 3: v-sits
+Exercise 4: burpees
+Exercise 5: pullups
+

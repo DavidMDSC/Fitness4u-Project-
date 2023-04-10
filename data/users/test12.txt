@@ -1,0 +1,19 @@
+Username: test12
+Password: test12
+firsttime: false
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a1
+q3answer: a2
+q4answer: a1
+Exercise 1: pullups
+Exercise 2: bicycle
+Exercise 3: plank
+Exercise 4: squat-jumps
+Exercise 5: v-sits
+

@@ -1,0 +1,19 @@
+Username: test14
+Password: test14
+firsttime: false
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a1
+q3answer: a2
+q4answer: a1
+Exercise 1: squat-pulses
+Exercise 2: pullups
+Exercise 3: plank
+Exercise 4: side-hops
+Exercise 5: sit-ups
+

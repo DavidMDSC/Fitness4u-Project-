@@ -1,0 +1,19 @@
+Username: test8
+Password: test8
+firsttime: false
+
+
+/////////////////////////
+// First steps answers //
+/////////////////////////
+
+q1answer: a1
+q2answer: a4
+q3answer: a4
+q4answer: a1
+Exercise 1: v-sits
+Exercise 2: squat-pulses
+Exercise 3: climbers
+Exercise 4: squat-jumps
+Exercise 5: pullups
+

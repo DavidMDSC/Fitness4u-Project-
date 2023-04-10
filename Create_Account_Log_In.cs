@@ -67,6 +67,7 @@ namespace Fitness4u__Project_
                 string line = File.ReadLines(filepath).Skip(linenumber - 1).FirstOrDefault();
                 MessageBox.Show(line); // test
                 MessageBox.Show("Password: " + loginPasswordTxt.Text); // test 2
+                // if both message boxes show the same thing, we can insure the password is correct
                 if (line == "Password: " + loginPasswordTxt.Text)
                 {
 

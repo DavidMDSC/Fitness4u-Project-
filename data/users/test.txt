@@ -1,3 +1,0 @@
-Username: test
-Password: 123
-firsttime: true
